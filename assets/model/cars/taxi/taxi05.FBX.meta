@@ -1,0 +1,339 @@
+{
+  "ver": "1.3.16",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "6f96f814-5ddd-4faa-8452-70739b17ea92",
+  "files": [],
+  "subMetas": {
+    "59171": {
+      "ver": "1.0.8",
+      "importer": "gltf-mesh",
+      "uuid": "6f96f814-5ddd-4faa-8452-70739b17ea92@59171",
+      "imported": true,
+      "files": [
+        ".json",
+        ".bin"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 1
+      },
+      "displayName": "",
+      "id": "59171",
+      "name": "tyre1-1.mesh"
+    },
+    "70946": {
+      "ver": "1.0.2",
+      "importer": "gltf-embeded-image",
+      "uuid": "6f96f814-5ddd-4faa-8452-70739b17ea92@70946",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 1
+      },
+      "displayName": "",
+      "id": "70946",
+      "name": "taxi05Green.png-1.image"
+    },
+    "f29e8": {
+      "ver": "1.0.8",
+      "importer": "gltf-mesh",
+      "uuid": "6f96f814-5ddd-4faa-8452-70739b17ea92@f29e8",
+      "imported": true,
+      "files": [
+        ".json",
+        ".bin"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0
+      },
+      "displayName": "",
+      "id": "f29e8",
+      "name": "CityCar_01_005-0.mesh"
+    },
+    "e2346": {
+      "ver": "1.0.8",
+      "importer": "gltf-mesh",
+      "uuid": "6f96f814-5ddd-4faa-8452-70739b17ea92@e2346",
+      "imported": true,
+      "files": [
+        ".json",
+        ".bin"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 2
+      },
+      "displayName": "",
+      "id": "e2346",
+      "name": "tyre3-2.mesh"
+    },
+    "9b25d": {
+      "ver": "1.0.8",
+      "importer": "gltf-mesh",
+      "uuid": "6f96f814-5ddd-4faa-8452-70739b17ea92@9b25d",
+      "imported": true,
+      "files": [
+        ".json",
+        ".bin"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 3
+      },
+      "displayName": "",
+      "id": "9b25d",
+      "name": "light1-3.mesh"
+    },
+    "bdfac": {
+      "ver": "1.0.8",
+      "importer": "gltf-mesh",
+      "uuid": "6f96f814-5ddd-4faa-8452-70739b17ea92@bdfac",
+      "imported": true,
+      "files": [
+        ".json",
+        ".bin"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 4
+      },
+      "displayName": "",
+      "id": "bdfac",
+      "name": "tyre2-4.mesh"
+    },
+    "e5185": {
+      "ver": "1.0.8",
+      "importer": "gltf-mesh",
+      "uuid": "6f96f814-5ddd-4faa-8452-70739b17ea92@e5185",
+      "imported": true,
+      "files": [
+        ".json",
+        ".bin"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 5
+      },
+      "displayName": "",
+      "id": "e5185",
+      "name": "tyre3-5.mesh"
+    },
+    "4eeef": {
+      "ver": "1.0.2",
+      "importer": "gltf-embeded-image",
+      "uuid": "6f96f814-5ddd-4faa-8452-70739b17ea92@4eeef",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0
+      },
+      "displayName": "",
+      "id": "4eeef",
+      "name": "taxi05Green.png-0.image"
+    },
+    "95b38": {
+      "ver": "1.0.2",
+      "importer": "gltf-embeded-image",
+      "uuid": "6f96f814-5ddd-4faa-8452-70739b17ea92@95b38",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 2
+      },
+      "displayName": "",
+      "id": "95b38",
+      "name": "taxi05Green.png-2.image"
+    },
+    "a4d9b": {
+      "ver": "1.0.19",
+      "importer": "texture",
+      "uuid": "6f96f814-5ddd-4faa-8452-70739b17ea92@a4d9b",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "6f96f814-5ddd-4faa-8452-70739b17ea92@4eeef"
+      },
+      "displayName": "",
+      "id": "a4d9b",
+      "name": "贴图 #21.texture"
+    },
+    "cb93c": {
+      "ver": "1.0.19",
+      "importer": "texture",
+      "uuid": "6f96f814-5ddd-4faa-8452-70739b17ea92@cb93c",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "6f96f814-5ddd-4faa-8452-70739b17ea92@70946"
+      },
+      "displayName": "",
+      "id": "cb93c",
+      "name": "贴图 #20.texture"
+    },
+    "7c0f3": {
+      "ver": "1.0.19",
+      "importer": "texture",
+      "uuid": "6f96f814-5ddd-4faa-8452-70739b17ea92@7c0f3",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "6f96f814-5ddd-4faa-8452-70739b17ea92@95b38"
+      },
+      "displayName": "",
+      "id": "7c0f3",
+      "name": "贴图 #19.texture"
+    },
+    "b82d3": {
+      "ver": "1.0.13",
+      "importer": "gltf-material",
+      "uuid": "6f96f814-5ddd-4faa-8452-70739b17ea92@b82d3",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0
+      },
+      "displayName": "",
+      "id": "b82d3",
+      "name": "Material #22.material"
+    },
+    "0534a": {
+      "ver": "1.0.13",
+      "importer": "gltf-material",
+      "uuid": "6f96f814-5ddd-4faa-8452-70739b17ea92@0534a",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 1
+      },
+      "displayName": "",
+      "id": "0534a",
+      "name": "Material #21.material"
+    },
+    "9e444": {
+      "ver": "1.0.13",
+      "importer": "gltf-material",
+      "uuid": "6f96f814-5ddd-4faa-8452-70739b17ea92@9e444",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 2
+      },
+      "displayName": "",
+      "id": "9e444",
+      "name": "Material #20.material"
+    },
+    "dd289": {
+      "ver": "1.0.9",
+      "importer": "gltf-scene",
+      "uuid": "6f96f814-5ddd-4faa-8452-70739b17ea92@dd289",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0
+      },
+      "displayName": "",
+      "id": "dd289",
+      "name": "taxi05.FBX.prefab"
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "taxi05Green.png",
+        "uri": "6f96f814-5ddd-4faa-8452-70739b17ea92@4eeef"
+      },
+      {
+        "name": "taxi05Green.png",
+        "uri": "6f96f814-5ddd-4faa-8452-70739b17ea92@70946"
+      },
+      {
+        "name": "taxi05Green.png",
+        "uri": "6f96f814-5ddd-4faa-8452-70739b17ea92@95b38"
+      }
+    ],
+    "redirect": "6f96f814-5ddd-4faa-8452-70739b17ea92@dd289",
+    "assetFinder": {
+      "meshes": [
+        "6f96f814-5ddd-4faa-8452-70739b17ea92@f29e8",
+        "6f96f814-5ddd-4faa-8452-70739b17ea92@59171",
+        "6f96f814-5ddd-4faa-8452-70739b17ea92@e2346",
+        "6f96f814-5ddd-4faa-8452-70739b17ea92@9b25d",
+        "6f96f814-5ddd-4faa-8452-70739b17ea92@bdfac",
+        "6f96f814-5ddd-4faa-8452-70739b17ea92@e5185"
+      ],
+      "skeletons": [],
+      "textures": [
+        "6f96f814-5ddd-4faa-8452-70739b17ea92@a4d9b",
+        "6f96f814-5ddd-4faa-8452-70739b17ea92@cb93c",
+        "6f96f814-5ddd-4faa-8452-70739b17ea92@7c0f3"
+      ],
+      "materials": [
+        "6f96f814-5ddd-4faa-8452-70739b17ea92@b82d3",
+        "6f96f814-5ddd-4faa-8452-70739b17ea92@0534a",
+        "6f96f814-5ddd-4faa-8452-70739b17ea92@9e444"
+      ],
+      "scenes": [
+        "6f96f814-5ddd-4faa-8452-70739b17ea92@dd289"
+      ]
+    }
+  }
+}

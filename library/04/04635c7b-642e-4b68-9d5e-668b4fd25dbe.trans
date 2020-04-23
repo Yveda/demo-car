@@ -1,0 +1,6 @@
+{
+    "resolveMap": {
+        "./CarManager": "E:/company_project/demo-car/demo-car/assets/script/game/CarManager.ts",
+        "./MapManager": "E:/company_project/demo-car/demo-car/assets/script/game/MapManager.ts"
+    }
+}

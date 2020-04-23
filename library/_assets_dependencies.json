@@ -1,0 +1,18 @@
+{
+  "file2uuids": {
+    "E:\\company_project\\demo-car\\demo-car\\assets\\model\\plane\\Materials_plane01.FBX\\Material #116.mtl": [],
+    "E:\\company_project\\demo-car\\demo-car\\assets\\model\\sign\\Materials_start.FBX\\Material #93.mtl": [],
+    "E:\\company_project\\demo-car\\demo-car\\assets\\model\\sign\\Materials_end.FBX\\Material #91.mtl": [],
+    "E:\\company_project\\demo-car\\demo-car\\assets\\model\\sign\\Materials_sign01.FBX\\Material #91.mtl": [],
+    "E:\\company_project\\demo-car\\demo-car\\assets\\model\\cars\\truck\\Materials_truck02.FBX\\Material #28.mtl": []
+  },
+  "uuid2uuids": {
+    "1baf0fc9-befa-459c-8bdd-af1a450a0319": [
+      "c9d7caa5-a65b-44e3-94ed-4b8d50cd7624",
+      "3a506ac1-06fb-4b99-a6a2-02fe968e740e",
+      "e537316b-6e88-4b98-af37-a7dae2600e6a",
+      "0e1de84e-b8bb-4f7e-af5a-e0cb56654c31",
+      "8acc370f-0a84-4ca6-948a-ea96ad3e4d67"
+    ]
+  }
+}
