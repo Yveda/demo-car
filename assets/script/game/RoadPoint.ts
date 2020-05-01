@@ -80,7 +80,7 @@ export class RoadPoint extends Component {
 
     @property({
         visible: function(this: RoadPoint) {
-            return this.type === ROAD_POINT_TYPE.AI_START;
+            return this.type === ROAD_POINT_TYPE.AI_START; 
         }
     })
     delayTime = 0;

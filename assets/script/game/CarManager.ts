@@ -1,7 +1,7 @@
 import { Car } from './Car';
 import { _decorator, Component, Node } from "cc";
 const { ccclass, property } = _decorator;
-
+//小车管理
 @ccclass("CarManager")
 export class CarManager extends Component {
 
@@ -22,6 +22,14 @@ export class CarManager extends Component {
 
   public _createMainCar(point: Node) {
     this.mainCar.setEntry(point);
+  }
+
+  public controlMoving(isRunning = true) {
+    if (isRunning) {
+       this.mainCar.startRunning();
+    } else {
+      this.mainCar.stopRunning();
+    }
   }
 
 

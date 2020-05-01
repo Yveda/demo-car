@@ -28,4 +28,17 @@ export class GameCtr extends Component {
         this.mapManager.resetMap();
         this.carManager.resetCars(this.mapManager.currPath);
     }
+
+    public start () {
+        this.node.on(Node.EventType.TOUCH_START, this._touchStart, this);
+        this.node.on(Node.EventType.TOUCH_END, this._touchEnd, this);
+    }
+
+    private _touchStart(touch: Touch, event: EventTouch) {
+        this.carManager.controlMoving();
+    }
+
+    private _touchEnd(touch: Touch, event: EventTouch) {
+        this.carManager.controlMoving(false);
+    }
 }

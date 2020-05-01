@@ -1,5 +1,5 @@
 {
     "resolveMap": {
-        "./Car": "E:/company_project/demo-car/demo-car/assets/script/game/Car.ts"
+        "./Car": "E:/company_project/demo-car/assets/script/game/Car.ts"
     }
 }

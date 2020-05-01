@@ -1,3 +1,5 @@
 {
-    "resolveMap": {}
+    "resolveMap": {
+        "./RoadPoint": "E:/company_project/demo-car/assets/script/game/RoadPoint.ts"
+    }
 }
