@@ -1,5 +1,5 @@
 {
     "resolveMap": {
-        "./GameMap": "E:/company_project/demo-car/demo-car/assets/script/game/GameMap.ts"
+        "./GameMap": "E:/company_project/demo-car/assets/script/game/GameMap.ts"
     }
 }

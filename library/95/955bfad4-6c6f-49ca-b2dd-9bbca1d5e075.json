@@ -5046,7 +5046,7 @@
     "nextStation": {
       "__id__": 171
     },
-    "moveTyoe": 1,
+    "moveType": 1,
     "clockwise": true,
     "direction": {
       "__type__": "cc.Vec3",
@@ -5132,7 +5132,7 @@
     "nextStation": {
       "__id__": 174
     },
-    "moveTyoe": 1,
+    "moveType": 1,
     "clockwise": true,
     "direction": {
       "__type__": "cc.Vec3",
@@ -5218,7 +5218,7 @@
     "nextStation": {
       "__id__": 177
     },
-    "moveTyoe": 1,
+    "moveType": 1,
     "clockwise": true,
     "direction": {
       "__type__": "cc.Vec3",
@@ -5304,7 +5304,7 @@
     "nextStation": {
       "__id__": 180
     },
-    "moveTyoe": 1,
+    "moveType": 1,
     "clockwise": true,
     "direction": {
       "__type__": "cc.Vec3",
@@ -5390,7 +5390,7 @@
     "nextStation": {
       "__id__": 183
     },
-    "moveTyoe": 1,
+    "moveType": 1,
     "clockwise": true,
     "direction": {
       "__type__": "cc.Vec3",
@@ -5474,7 +5474,7 @@
     "_enabled": true,
     "type": 5,
     "nextStation": null,
-    "moveTyoe": 1,
+    "moveType": 1,
     "clockwise": true,
     "direction": {
       "__type__": "cc.Vec3",

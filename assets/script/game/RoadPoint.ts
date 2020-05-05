@@ -15,7 +15,7 @@ Enum(ROAD_POINT_TYPE);
 
 //路线类型, 没有定义开始编号的话一开始就是0
 enum ROAD_MOVE_TYPE {
-    LINE = 1,//直线
+    BRND = 1,//直线
     CURVE,//转弯
 }
 
@@ -52,12 +52,12 @@ export class RoadPoint extends Component {
             return this.type !== ROAD_POINT_TYPE.END
         }
     })
-    moveTyoe = ROAD_MOVE_TYPE.LINE
+    moveType = ROAD_MOVE_TYPE.BRND
 
     @property({
         displayOrder: 4,
         visible: function(this: RoadPoint) {
-            return this.type !== ROAD_POINT_TYPE.END && this.moveTyoe === ROAD_MOVE_TYPE.CURVE;
+            return this.type !== ROAD_POINT_TYPE.END && this.moveType === ROAD_MOVE_TYPE.CURVE;
         }
     })
     clockwise = true;

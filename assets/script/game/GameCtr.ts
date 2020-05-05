@@ -1,6 +1,6 @@
 import { CarManager } from './CarManager';
 import { MapManager } from './MapManager';
-import { _decorator, Component, Node } from "cc";
+import { _decorator, Component, Node, EventTouch } from "cc";
 const { ccclass, property } = _decorator;
 //游戏控制类
 @ccclass("GameCtr")
