@@ -15,8 +15,8 @@ Enum(ROAD_POINT_TYPE);
 
 //路线类型, 没有定义开始编号的话一开始就是0
 enum ROAD_MOVE_TYPE {
-    BRND = 1,//直线
-    CURVE,//转弯
+    LINE = 1,//直线
+    BEND,//弯路
 }
 
 Enum(ROAD_MOVE_TYPE);
@@ -30,6 +30,9 @@ export class RoadPoint extends Component {
     // @property
     // serializableDummy = 0;
 
+    public static RoadPointType = ROAD_POINT_TYPE;
+    public static RoadMoveType = ROAD_MOVE_TYPE;
+
     @property({
         type: ROAD_POINT_TYPE,
         displayOrder: 1,
@@ -39,28 +42,28 @@ export class RoadPoint extends Component {
     @property({
         type: Node,
         displayOrder: 2,//编辑器排序
-        visible: function(this: RoadPoint) {//显示的条件
-            return this.type !== ROAD_POINT_TYPE.END
-        }
+        // visible: function(this: RoadPoint) {//显示的条件
+        //     return this.type !== ROAD_POINT_TYPE.END
+        // }
     })
     nextStation: Node = null;
 
     @property({
         type: ROAD_MOVE_TYPE,
         displayOrder: 3,
-        visible: function(this: RoadPoint) {
-            return this.type !== ROAD_POINT_TYPE.END
-        }
+        // visible: function(this: RoadPoint) {
+        //     return this.type !== ROAD_POINT_TYPE.END
+        // }
     })
-    moveType = ROAD_MOVE_TYPE.BRND
+    moveType = ROAD_MOVE_TYPE.LINE;
 
     @property({
         displayOrder: 4,
         visible: function(this: RoadPoint) {
-            return this.type !== ROAD_POINT_TYPE.END && this.moveType === ROAD_MOVE_TYPE.CURVE;
+            return this.moveType === ROAD_MOVE_TYPE.BEND;
         }
     })
-    clockwise = true;
+    clockwise: boolean = false;
 
     //接送客点方向, 默认右边
     @property({
@@ -69,16 +72,11 @@ export class RoadPoint extends Component {
             return this.type === ROAD_POINT_TYPE.GREETING || this.type === ROAD_POINT_TYPE.GOODBYE;
         }
     })
-    direction = new Vec3(1, 0, 0);
+    // direction = new Vec3(1, 0, 0);
+    direction = new Vec3();
 
     @property({
-        visible: function(this: RoadPoint) {
-            return this.type === ROAD_POINT_TYPE.AI_START;
-        }
-    })
-    interval = 3;// AI产出间隔
-
-    @property({
+        displayOrder: 5,
         visible: function(this: RoadPoint) {
             return this.type === ROAD_POINT_TYPE.AI_START; 
         }
@@ -86,6 +84,15 @@ export class RoadPoint extends Component {
     delayTime = 0;
 
     @property({
+        displayOrder: 6,
+        visible: function(this: RoadPoint) {
+            return this.type === ROAD_POINT_TYPE.AI_START;
+        }
+    })
+    interval = 3;// AI产出间隔
+
+    @property({
+        displayOrder: 7,
         visible: function(this: RoadPoint) {
             return this.type === ROAD_POINT_TYPE.AI_START;
         }
@@ -93,13 +100,12 @@ export class RoadPoint extends Component {
     speed = 0.05;
 
     @property({
+        displayOrder: 8,
         visible: function(this: RoadPoint) {
             return this.type === ROAD_POINT_TYPE.AI_START;
         }
     })
     cars = '201';
-
-
 
     start () {
         // Your initialization goes here.

@@ -21,7 +21,7 @@ export class CarManager extends Component {
   }
 
   public _createMainCar(point: Node) {
-    this.mainCar.setEntry(point);
+    this.mainCar.setEntry(point, true);
   }
 
   public controlMoving(isRunning = true) {

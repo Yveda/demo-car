@@ -1,43 +1,66 @@
-2020-05-05 23:47:48-log: ui-kit@1.0.0 enable
-2020-05-05 23:47:48-log: ipc@1.0.0 enable
-2020-05-05 23:47:48-log: tester@1.0.0 enable
-2020-05-05 23:47:48-log: preferences@1.0.0 enable
-2020-05-05 23:47:50-log: engine@1.0.0 enable
-2020-05-05 23:47:51-log: asset-db@1.0.0 enable
-2020-05-05 23:47:51-log: console@1.0.0 enable
-2020-05-05 23:47:51-log: scene@1.0.0 enable
-2020-05-05 23:47:51-log: packager@1.0.0 enable
-2020-05-05 23:47:51-log: project-setting@1.0.0 enable
-2020-05-05 23:47:51-log: about@1.0.0 enable
-2020-05-05 23:47:51-log: server@1.0.0 enable
-2020-05-05 23:47:51-log: utils@1.0.0 enable
-2020-05-05 23:47:51-log: profile@1.0.0 enable
-2020-05-05 23:47:51-log: assets@1.0.0 enable
-2020-05-05 23:47:51-log: inspector@1.0.0 enable
-2020-05-05 23:47:51-log: hierarchy@1.0.0 enable
-2020-05-05 23:47:51-log: preview@1.0.0 enable
-2020-05-05 23:47:51-log: animator@1.0.0 enable
-2020-05-05 23:47:52-log: builder@1.0.0 enable
-2020-05-05 23:47:52-log: alipay-mini-game@1.0.0 enable
-2020-05-05 23:47:52-log: android@1.0.0 enable
-2020-05-05 23:47:52-log: baidu-mini-game@1.0.0 enable
-2020-05-05 23:47:52-log: cocos-play@1.0.0 enable
-2020-05-05 23:47:52-log: huawei-mini-game@1.0.0 enable
-2020-05-05 23:47:52-log: ios@1.0.0 enable
-2020-05-05 23:47:52-log: mac@1.0.0 enable
-2020-05-05 23:47:52-log: native@1.0.0 enable
-2020-05-05 23:47:52-log: oppo-mini-game@1.0.0 enable
-2020-05-05 23:47:52-log: vivo-mini-game@1.0.0 enable
-2020-05-05 23:47:52-log: web-desktop@1.0.0 enable
-2020-05-05 23:47:52-log: web-mobile@1.0.0 enable
-2020-05-05 23:47:52-log: wechatgame@1.0.0 enable
-2020-05-05 23:47:52-log: windows@1.0.0 enable
-2020-05-05 23:47:52-log: xiaomi-quick-game@1.0.0 enable
-2020-05-05 23:48:07-warn: [Asset DB] Browserslist: caniuse-lite is outdated. Please run next command `npm update`
-2020-05-05 23:51:06-error: [preview-error]Uncaught TypeError: Cannot read property 'resetCars' of null in http://localhost:7456/scripting/assets/script/game/GameCtr.js
-2020-05-05 23:51:21-info: asset(E:\company_project\demo-car\assets\game.scene) saved
-2020-05-05 23:51:26-error: [preview-error]Uncaught TypeError: Cannot read property 'resetCars' of null in http://localhost:7456/scripting/assets/script/game/GameCtr.js
-2020-05-05 23:51:27-error: [preview-error]Uncaught TypeError: Cannot read property 'controlMoving' of null in http://localhost:7456/scripting/assets/script/game/GameCtr.js
-2020-05-05 23:52:16-info: asset(E:\company_project\demo-car\assets\game.scene) saved
-2020-05-06 00:18:26-info: asset(E:\company_project\demo-car\assets\game.scene) saved
-2020-05-06 00:19:00-info: asset(E:\company_project\demo-car\assets\game.scene) saved
+2020-05-13 22:17:59-log: ui-kit@1.0.0 enable
+2020-05-13 22:17:59-log: ipc@1.0.0 enable
+2020-05-13 22:17:59-log: tester@1.0.0 enable
+2020-05-13 22:17:59-log: preferences@1.0.0 enable
+2020-05-13 22:18:01-log: engine@1.0.0 enable
+2020-05-13 22:18:01-log: asset-db@1.0.0 enable
+2020-05-13 22:18:01-log: console@1.0.0 enable
+2020-05-13 22:18:01-log: scene@1.0.0 enable
+2020-05-13 22:18:01-log: packager@1.0.0 enable
+2020-05-13 22:18:01-log: project-setting@1.0.0 enable
+2020-05-13 22:18:01-log: about@1.0.0 enable
+2020-05-13 22:18:02-log: server@1.0.0 enable
+2020-05-13 22:18:02-log: utils@1.0.0 enable
+2020-05-13 22:18:02-log: profile@1.0.0 enable
+2020-05-13 22:18:02-log: assets@1.0.0 enable
+2020-05-13 22:18:02-log: inspector@1.0.0 enable
+2020-05-13 22:18:02-log: hierarchy@1.0.0 enable
+2020-05-13 22:18:02-log: preview@1.0.0 enable
+2020-05-13 22:18:02-log: animator@1.0.0 enable
+2020-05-13 22:18:02-log: builder@1.0.0 enable
+2020-05-13 22:18:02-log: alipay-mini-game@1.0.0 enable
+2020-05-13 22:18:02-log: android@1.0.0 enable
+2020-05-13 22:18:02-log: baidu-mini-game@1.0.0 enable
+2020-05-13 22:18:02-log: cocos-play@1.0.0 enable
+2020-05-13 22:18:02-log: huawei-mini-game@1.0.0 enable
+2020-05-13 22:18:02-log: ios@1.0.0 enable
+2020-05-13 22:18:02-log: mac@1.0.0 enable
+2020-05-13 22:18:02-log: native@1.0.0 enable
+2020-05-13 22:18:02-log: oppo-mini-game@1.0.0 enable
+2020-05-13 22:18:03-log: vivo-mini-game@1.0.0 enable
+2020-05-13 22:18:03-log: web-desktop@1.0.0 enable
+2020-05-13 22:18:03-log: web-mobile@1.0.0 enable
+2020-05-13 22:18:03-log: wechatgame@1.0.0 enable
+2020-05-13 22:18:03-log: windows@1.0.0 enable
+2020-05-13 22:18:03-log: xiaomi-quick-game@1.0.0 enable
+2020-05-13 22:18:16-warn: [Asset DB] Browserslist: caniuse-lite is outdated. Please run next command `npm update`
+2020-05-13 22:18:22-error: [Scene] Error: Can not get asset url by uuid "9d9704d8-08b4-4917-ba47-9d778bc77ac6", the asset may be deleted.
+2020-05-13 22:18:22-error: [Scene] The Asset used is missing. Detailed information:
+Missing uuid: "9d9704d8-08b4-4917-ba47-9d778bc77ac6"
+
+2020-05-13 22:18:22-error: [Scene] Error: Can not get asset url by uuid "9d9704d8-08b4-4917-ba47-9d778bc77ac6", the asset may be deleted.
+2020-05-13 22:18:22-error: [Scene] The Asset used is missing. Detailed information:
+Missing uuid: "9d9704d8-08b4-4917-ba47-9d778bc77ac6"
+
+2020-05-13 22:23:05-info: asset(E:\company_project\demo-car\assets\game.scene) saved
+2020-05-13 22:51:36-info: asset(E:\company_project\demo-car\assets\game.scene) saved
+2020-05-13 22:51:45-info: asset(E:\company_project\demo-car\assets\game.scene) saved
+2020-05-13 22:52:33-info: asset(E:\company_project\demo-car\assets\game.scene) saved
+2020-05-13 22:54:53-info: asset(E:\company_project\demo-car\assets\game.scene) saved
+2020-05-13 22:54:53-info: asset(E:\company_project\demo-car\assets\game.scene) saved
+2020-05-13 23:08:17-info: asset(E:\company_project\demo-car\assets\game.scene) saved
+2020-05-13 23:08:35-info: asset(E:\company_project\demo-car\assets\game.scene) saved
+2020-05-13 23:09:05-info: asset(E:\company_project\demo-car\assets\game.scene) saved
+2020-05-13 23:11:12-info: asset(E:\company_project\demo-car\assets\game.scene) saved
+2020-05-13 23:30:31-info: asset(E:\company_project\demo-car\assets\game.scene) saved
+2020-05-13 23:30:39-info: asset(E:\company_project\demo-car\assets\game.scene) saved
+2020-05-13 23:31:03-info: asset(E:\company_project\demo-car\assets\game.scene) saved
+2020-05-13 23:42:35-info: asset(E:\company_project\demo-car\assets\game.scene) saved
+2020-05-13 23:42:44-info: asset(E:\company_project\demo-car\assets\game.scene) saved
+2020-05-13 23:43:09-info: asset(E:\company_project\demo-car\assets\game.scene) saved
+2020-05-13 23:44:43-info: asset(E:\company_project\demo-car\assets\game.scene) saved
+2020-05-13 23:47:01-info: asset(E:\company_project\demo-car\assets\game.scene) saved
+2020-05-13 23:47:39-info: asset(E:\company_project\demo-car\assets\game.scene) saved
+2020-05-13 23:48:52-info: asset meta saved
+2020-05-13 23:49:22-info: asset(E:\company_project\demo-car\assets\model\customer\2\Materials_man01.FBX\Material #2.mtl) saved
+2020-05-13 23:49:33-info: asset(E:\company_project\demo-car\assets\game.scene) saved
