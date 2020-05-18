@@ -4,7 +4,16 @@ const { ccclass, property } = _decorator;
 enum EventName {
     GREETING = 'greeting',
     GOODBYE = 'goodbye',
-    FINISHEDWALK = 'finished-walk'
+    FINISH_EDWALK = 'finished-walk',
+    START_BREAKING = 'start-breaking',//什么时候开始刹车
+    END_BREAKING = 'end-breaking',//什么时候结束
+    SHOW_COIN = 'show-coin'//显示金币
+}
+
+enum CustomerState {
+    NONE,
+    GREETING,
+    GOODBYE,
 }
 
 @ccclass("Constants")
@@ -17,6 +26,7 @@ export class Constants extends Component {
     // serializableDummy = 0;
 
     public static EventName = EventName;
+    public static CustomerState = CustomerState;
 
     start () {
         // Your initialization goes here.

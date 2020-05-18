@@ -1,7 +1,7 @@
 System.register(["cc"], function (_export, _context) {
   "use strict";
 
-  var _cclegacy, _decorator, Component, _dec, _class, _crd, ccclass, property, Constants;
+  var _cclegacy, _decorator, Component, _dec, _class, _class2, _temp, _crd, ccclass, property, EventName, CustomerState, Constants;
 
   function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
@@ -23,7 +23,11 @@ System.register(["cc"], function (_export, _context) {
 
   _export({
     _dec: void 0,
-    _class: void 0
+    _class: void 0,
+    _class2: void 0,
+    _temp: void 0,
+    EventName: void 0,
+    CustomerState: void 0
   });
 
   return {
@@ -39,7 +43,22 @@ System.register(["cc"], function (_export, _context) {
       ccclass = _decorator.ccclass;
       property = _decorator.property;
 
-      _export("Constants", Constants = (_dec = ccclass("Constants"), _dec(_class =
+      (function (EventName) {
+        EventName["GREETING"] = "greeting";
+        EventName["GOODBYE"] = "goodbye";
+        EventName["FINISH_EDWALK"] = "finished-walk";
+        EventName["START_BREAKING"] = "start-breaking";
+        EventName["END_BREAKING"] = "end-breaking";
+        EventName["SHOW_COIN"] = "show-coin";
+      })(EventName || (EventName = {}));
+
+      (function (CustomerState) {
+        CustomerState[CustomerState["NONE"] = 0] = "NONE";
+        CustomerState[CustomerState["GREETING"] = 1] = "GREETING";
+        CustomerState[CustomerState["GOODBYE"] = 2] = "GOODBYE";
+      })(CustomerState || (CustomerState = {}));
+
+      _export("Constants", Constants = (_dec = ccclass("Constants"), _dec(_class = (_temp = _class2 =
       /*#__PURE__*/
       function (_Component) {
         _inherits(Constants, _Component);
@@ -67,7 +86,7 @@ System.register(["cc"], function (_export, _context) {
         }]);
 
         return Constants;
-      }(Component)) || _class));
+      }(Component), _class2.EventName = EventName, _class2.CustomerState = CustomerState, _temp)) || _class));
 
       _crd = false;
 
@@ -75,4 +94,4 @@ System.register(["cc"], function (_export, _context) {
     }
   };
 });
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkU6L2NvbXBhbnlfcHJvamVjdC9kZW1vLWNhci9hc3NldHMvc2NyaXB0L2RhdGEvQ29uc3RhbnRzLnRzIl0sIm5hbWVzIjpbIl9kZWNvcmF0b3IiLCJDb21wb25lbnQiLCJjY2NsYXNzIiwicHJvcGVydHkiLCJDb25zdGFudHMiXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFBU0EsTUFBQUEsVSxPQUFBQSxVO0FBQVlDLE1BQUFBLFMsT0FBQUEsUzs7Ozs7O0FBQ2JDLE1BQUFBLE8sR0FBc0JGLFUsQ0FBdEJFLE87QUFBU0MsTUFBQUEsUSxHQUFhSCxVLENBQWJHLFE7OzJCQUdKQyxTLFdBRFpGLE9BQU8sQ0FBQyxXQUFELEM7Ozs7Ozs7Ozs7Ozs7O0FBRUo7QUFDQTs7QUFFQTtBQUNBO0FBQ0E7a0NBRVMsQ0FFUixDLENBREc7QUFHSjtBQUNBO0FBQ0E7Ozs7O1FBZDJCRCxTIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgX2RlY29yYXRvciwgQ29tcG9uZW50LCBOb2RlIH0gZnJvbSBcImNjXCI7XHJcbmNvbnN0IHsgY2NjbGFzcywgcHJvcGVydHkgfSA9IF9kZWNvcmF0b3I7XHJcblxyXG5AY2NjbGFzcyhcIkNvbnN0YW50c1wiKVxyXG5leHBvcnQgY2xhc3MgQ29uc3RhbnRzIGV4dGVuZHMgQ29tcG9uZW50IHtcclxuICAgIC8qIGNsYXNzIG1lbWJlciBjb3VsZCBiZSBkZWZpbmVkIGxpa2UgdGhpcyAqL1xyXG4gICAgLy8gZHVtbXkgPSAnJztcclxuXHJcbiAgICAvKiB1c2UgYHByb3BlcnR5YCBkZWNvcmF0b3IgaWYgeW91ciB3YW50IHRoZSBtZW1iZXIgdG8gYmUgc2VyaWFsaXphYmxlICovXHJcbiAgICAvLyBAcHJvcGVydHlcclxuICAgIC8vIHNlcmlhbGl6YWJsZUR1bW15ID0gMDtcclxuXHJcbiAgICBzdGFydCAoKSB7XHJcbiAgICAgICAgLy8gWW91ciBpbml0aWFsaXphdGlvbiBnb2VzIGhlcmUuXHJcbiAgICB9XHJcblxyXG4gICAgLy8gdXBkYXRlIChkZWx0YVRpbWU6IG51bWJlcikge1xyXG4gICAgLy8gICAgIC8vIFlvdXIgdXBkYXRlIGZ1bmN0aW9uIGdvZXMgaGVyZS5cclxuICAgIC8vIH1cclxufVxyXG4iXX0=
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkU6L2NvbXBhbnlfcHJvamVjdC9kZW1vLWNhci9hc3NldHMvc2NyaXB0L2RhdGEvQ29uc3RhbnRzLnRzIl0sIm5hbWVzIjpbIl9kZWNvcmF0b3IiLCJDb21wb25lbnQiLCJjY2NsYXNzIiwicHJvcGVydHkiLCJFdmVudE5hbWUiLCJDdXN0b21lclN0YXRlIiwiQ29uc3RhbnRzIl0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQUFTQSxNQUFBQSxVLE9BQUFBLFU7QUFBWUMsTUFBQUEsUyxPQUFBQSxTOzs7Ozs7QUFDYkMsTUFBQUEsTyxHQUFzQkYsVSxDQUF0QkUsTztBQUFTQyxNQUFBQSxRLEdBQWFILFUsQ0FBYkcsUTs7aUJBRVpDLFM7QUFBQUEsUUFBQUEsUztBQUFBQSxRQUFBQSxTO0FBQUFBLFFBQUFBLFM7QUFBQUEsUUFBQUEsUztBQUFBQSxRQUFBQSxTO0FBQUFBLFFBQUFBLFM7U0FBQUEsUyxLQUFBQSxTOztpQkFTQUMsYTtBQUFBQSxRQUFBQSxhLENBQUFBLGE7QUFBQUEsUUFBQUEsYSxDQUFBQSxhO0FBQUFBLFFBQUFBLGEsQ0FBQUEsYTtTQUFBQSxhLEtBQUFBLGE7OzJCQU9RQyxTLFdBRFpKLE9BQU8sQ0FBQyxXQUFELEM7Ozs7Ozs7Ozs7Ozs7O0FBRUo7QUFDQTs7QUFFQTtBQUNBO0FBQ0E7a0NBS1MsQ0FFUixDLENBREc7QUFHSjtBQUNBO0FBQ0E7Ozs7O1FBakIyQkQsUyxXQVFiRyxTLEdBQVlBLFMsVUFDWkMsYSxHQUFnQkEsYSIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IF9kZWNvcmF0b3IsIENvbXBvbmVudCwgTm9kZSB9IGZyb20gXCJjY1wiO1xyXG5jb25zdCB7IGNjY2xhc3MsIHByb3BlcnR5IH0gPSBfZGVjb3JhdG9yO1xyXG5cclxuZW51bSBFdmVudE5hbWUge1xyXG4gICAgR1JFRVRJTkcgPSAnZ3JlZXRpbmcnLFxyXG4gICAgR09PREJZRSA9ICdnb29kYnllJyxcclxuICAgIEZJTklTSF9FRFdBTEsgPSAnZmluaXNoZWQtd2FsaycsXHJcbiAgICBTVEFSVF9CUkVBS0lORyA9ICdzdGFydC1icmVha2luZycsLy/ku4DkuYjml7blgJnlvIDlp4vliLnovaZcclxuICAgIEVORF9CUkVBS0lORyA9ICdlbmQtYnJlYWtpbmcnLC8v5LuA5LmI5pe25YCZ57uT5p2fXHJcbiAgICBTSE9XX0NPSU4gPSAnc2hvdy1jb2luJy8v5pi+56S66YeR5biBXHJcbn1cclxuXHJcbmVudW0gQ3VzdG9tZXJTdGF0ZSB7XHJcbiAgICBOT05FLFxyXG4gICAgR1JFRVRJTkcsXHJcbiAgICBHT09EQllFLFxyXG59XHJcblxyXG5AY2NjbGFzcyhcIkNvbnN0YW50c1wiKVxyXG5leHBvcnQgY2xhc3MgQ29uc3RhbnRzIGV4dGVuZHMgQ29tcG9uZW50IHtcclxuICAgIC8qIGNsYXNzIG1lbWJlciBjb3VsZCBiZSBkZWZpbmVkIGxpa2UgdGhpcyAqL1xyXG4gICAgLy8gZHVtbXkgPSAnJztcclxuXHJcbiAgICAvKiB1c2UgYHByb3BlcnR5YCBkZWNvcmF0b3IgaWYgeW91ciB3YW50IHRoZSBtZW1iZXIgdG8gYmUgc2VyaWFsaXphYmxlICovXHJcbiAgICAvLyBAcHJvcGVydHlcclxuICAgIC8vIHNlcmlhbGl6YWJsZUR1bW15ID0gMDtcclxuXHJcbiAgICBwdWJsaWMgc3RhdGljIEV2ZW50TmFtZSA9IEV2ZW50TmFtZTtcclxuICAgIHB1YmxpYyBzdGF0aWMgQ3VzdG9tZXJTdGF0ZSA9IEN1c3RvbWVyU3RhdGU7XHJcblxyXG4gICAgc3RhcnQgKCkge1xyXG4gICAgICAgIC8vIFlvdXIgaW5pdGlhbGl6YXRpb24gZ29lcyBoZXJlLlxyXG4gICAgfVxyXG5cclxuICAgIC8vIHVwZGF0ZSAoZGVsdGFUaW1lOiBudW1iZXIpIHtcclxuICAgIC8vICAgICAvLyBZb3VyIHVwZGF0ZSBmdW5jdGlvbiBnb2VzIGhlcmUuXHJcbiAgICAvLyB9XHJcbn1cclxuIl19

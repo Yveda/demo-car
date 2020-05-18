@@ -1,5 +1,7 @@
 {
     "resolveMap": {
+        "./../data/CustomEventListener": "E:/company_project/demo-car/assets/script/data/CustomEventListener.ts",
+        "./../data/Constants": "E:/company_project/demo-car/assets/script/data/Constants.ts",
         "./RoadPoint": "E:/company_project/demo-car/assets/script/game/RoadPoint.ts"
     }
 }

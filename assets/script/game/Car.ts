@@ -1,7 +1,7 @@
 import { CustomEventListener } from './../data/CustomEventListener';
 import { Constants } from './../data/Constants';
 import { RoadPoint } from './RoadPoint';
-import { _decorator, Component, Node, Vec3, textureUtil } from "cc";
+import { _decorator, Component, Node, Vec3, textureUtil, ParticleSystemComponent } from "cc";
 
 const { ccclass, property } = _decorator;
 
@@ -28,13 +28,15 @@ export class Car extends Component {
   private _accleration = 0.2;//加速度
   private _isMain = false;//当前是否是小车，而非ai
   private _isInOrder = false; //当前是否在订单中
+  private _isBreaking = false;//是否处于刹车
+  private _gas : ParticleSystemComponent = null; //尾气
 
   public start () {
-    CustomEventListener.on(EventName.FINISHEDWALK, this._finishedWalk, this);
+    CustomEventListener.on(EventName.FINISH_EDWALK, this._finishedWalk, this);
   }
 
   public update(dt: number) {
-    if (this._isMoving || this._isInOrder) {
+    if (!this._isMoving || this._isInOrder) {
       return;
     }
 
@@ -47,6 +49,11 @@ export class Car extends Component {
 
     if (this._currSpeed <= 0.001) {
       this._isMoving = false;
+
+      if (this._isBreaking) {
+        this._isBreaking = true;
+        CustomEventListener.dispatchEvent(EventName.END_BREAKING);
+      }
     }
 
     switch (this._currRoadPoint.moveType) {
@@ -146,6 +153,12 @@ export class Car extends Component {
         this.node.eulerAngles = new Vec3(0, 90, 0);
       }
     }
+
+    if (this._isMain) {
+      const gasNode = this.node.getChildByName('gas');
+      this._gas = gasNode.getComponent(ParticleSystemComponent);
+      this._gas.play();
+    }
   }
 
   public startRunning() {
@@ -159,6 +172,10 @@ export class Car extends Component {
   public stopRunning() {
     // this._isMoving = false;
     this._accleration -= 0.3;
+
+    //执行刹车
+    CustomEventListener.dispatchEvent(EventName.START_BREAKING, this.node);
+    this._isBreaking = true;
   }
 
   private _arrivalStation() {
@@ -169,6 +186,11 @@ export class Car extends Component {
       this._pointB.set(this._currRoadPoint.nextStation.worldPosition);
 
       if (this._isMain) {
+        if (this._isBreaking) {
+          this._isBreaking = true;
+          CustomEventListener.dispatchEvent(EventName.END_BREAKING);
+        }
+
         if (this._currRoadPoint.type === RoadPoint.RoadPointType.GREETING) {
           this._greetingCustomer();
         } else if (this._currRoadPoint.type == RoadPoint.RoadPointType.GOODBYE) {
@@ -214,16 +236,22 @@ export class Car extends Component {
 
   private _greetingCustomer() {
     this._isInOrder = true;
+    this._currSpeed = 0;
+    this._gas.stop();
     CustomEventListener.dispatchEvent(EventName.GREETING, this.node.worldPosition, this._currRoadPoint.direction);
   }
 
   private _takingCustomer() {
     this._isInOrder = true;
+    this._currSpeed = 0;
+    this._gas.stop();
     CustomEventListener.dispatchEvent(EventName.GOODBYE, this.node.worldPosition, this._currRoadPoint.direction);
+    CustomEventListener.dispatchEvent(EventName.SHOW_COIN, this.node.worldPosition);
   }
 
   private _finishedWalk () {
     this._isInOrder = false;
+    this._gas.play();
   }
 
   //让旋转角度变成正值

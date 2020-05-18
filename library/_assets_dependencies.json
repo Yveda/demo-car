@@ -1,15 +1,24 @@
 {
-  "file2uuids": {
-    "E:\\company_project\\demo-car\\assets\\model\\customer\\2\\Materials_man01.FBX\\Material #2.mtl": []
-  },
+  "file2uuids": {},
   "uuid2uuids": {
+    "17debcc3-0a6b-4b8a-b00b-dc58b885581e": [
+      "395c80cd-7c61-4579-8147-1922f44c50b8"
+    ],
+    "d1346436-ac96-4271-b863-1f4fdead95b0": [
+      "2050fdb3-48d9-4598-ad97-024ecb337b3a",
+      "b6d13623-f82a-4761-af75-97ed329ea14e"
+    ],
+    "a3cd009f-0ab0-420d-9278-b9fdab939bbc": [
+      "69f6d59e-5cc1-420f-aa6a-1e4e7b1a50a5"
+    ],
     "1baf0fc9-befa-459c-8bdd-af1a450a0319": [
       "c9d7caa5-a65b-44e3-94ed-4b8d50cd7624",
       "e537316b-6e88-4b98-af37-a7dae2600e6a",
-      "3a506ac1-06fb-4b99-a6a2-02fe968e740e",
       "0e1de84e-b8bb-4f7e-af5a-e0cb56654c31",
+      "3a506ac1-06fb-4b99-a6a2-02fe968e740e",
       "8acc370f-0a84-4ca6-948a-ea96ad3e4d67",
-      "f255dcbe-03d3-468e-a910-429de68f116e"
+      "f255dcbe-03d3-468e-a910-429de68f116e",
+      "b6d13623-f82a-4761-af75-97ed329ea14e"
     ]
   }
 }
