@@ -1,63 +1,65 @@
-2020-05-18 21:00:07-log: ui-kit@1.0.0 enable
-2020-05-18 21:00:07-log: ipc@1.0.0 enable
-2020-05-18 21:00:07-log: tester@1.0.0 enable
-2020-05-18 21:00:07-log: preferences@1.0.0 enable
-2020-05-18 21:00:12-log: engine@1.0.0 enable
-2020-05-18 21:00:12-log: asset-db@1.0.0 enable
-2020-05-18 21:00:12-log: console@1.0.0 enable
-2020-05-18 21:00:12-log: scene@1.0.0 enable
-2020-05-18 21:00:12-log: packager@1.0.0 enable
-2020-05-18 21:00:12-log: project-setting@1.0.0 enable
-2020-05-18 21:00:12-log: about@1.0.0 enable
-2020-05-18 21:00:13-log: server@1.0.0 enable
-2020-05-18 21:00:13-log: utils@1.0.0 enable
-2020-05-18 21:00:13-log: profile@1.0.0 enable
-2020-05-18 21:00:13-log: assets@1.0.0 enable
-2020-05-18 21:00:13-log: inspector@1.0.0 enable
-2020-05-18 21:00:13-log: hierarchy@1.0.0 enable
-2020-05-18 21:00:13-log: preview@1.0.0 enable
-2020-05-18 21:00:13-log: animator@1.0.0 enable
-2020-05-18 21:00:13-log: builder@1.0.0 enable
-2020-05-18 21:00:13-log: alipay-mini-game@1.0.0 enable
-2020-05-18 21:00:13-log: android@1.0.0 enable
-2020-05-18 21:00:13-log: baidu-mini-game@1.0.0 enable
-2020-05-18 21:00:14-log: cocos-play@1.0.0 enable
-2020-05-18 21:00:14-log: huawei-mini-game@1.0.0 enable
-2020-05-18 21:00:14-log: ios@1.0.0 enable
-2020-05-18 21:00:14-log: mac@1.0.0 enable
-2020-05-18 21:00:14-log: native@1.0.0 enable
-2020-05-18 21:00:14-log: oppo-mini-game@1.0.0 enable
-2020-05-18 21:00:14-log: vivo-mini-game@1.0.0 enable
-2020-05-18 21:00:14-log: web-desktop@1.0.0 enable
-2020-05-18 21:00:14-log: web-mobile@1.0.0 enable
-2020-05-18 21:00:14-log: wechatgame@1.0.0 enable
-2020-05-18 21:00:14-log: windows@1.0.0 enable
-2020-05-18 21:00:14-log: xiaomi-quick-game@1.0.0 enable
-2020-05-18 21:00:21-warn: [Scene] Sender does not exist
-2020-05-18 21:00:30-error: [Scene] Error: Can not get asset url by uuid "9d9704d8-08b4-4917-ba47-9d778bc77ac6", the asset may be deleted.
-2020-05-18 21:00:30-error: [Scene] The Asset used is missing. Detailed information:
+2020-05-19 22:19:30-log: ui-kit@1.0.0 enable
+2020-05-19 22:19:30-log: ipc@1.0.0 enable
+2020-05-19 22:19:30-log: tester@1.0.0 enable
+2020-05-19 22:19:30-log: preferences@1.0.0 enable
+2020-05-19 22:19:34-log: engine@1.0.0 enable
+2020-05-19 22:19:34-log: asset-db@1.0.0 enable
+2020-05-19 22:19:34-log: console@1.0.0 enable
+2020-05-19 22:19:35-log: scene@1.0.0 enable
+2020-05-19 22:19:35-log: packager@1.0.0 enable
+2020-05-19 22:19:35-log: project-setting@1.0.0 enable
+2020-05-19 22:19:35-log: about@1.0.0 enable
+2020-05-19 22:19:44-log: server@1.0.0 enable
+2020-05-19 22:19:44-log: utils@1.0.0 enable
+2020-05-19 22:19:44-log: profile@1.0.0 enable
+2020-05-19 22:19:44-log: assets@1.0.0 enable
+2020-05-19 22:19:44-log: inspector@1.0.0 enable
+2020-05-19 22:19:44-log: hierarchy@1.0.0 enable
+2020-05-19 22:19:44-log: preview@1.0.0 enable
+2020-05-19 22:19:44-log: animator@1.0.0 enable
+2020-05-19 22:19:45-log: builder@1.0.0 enable
+2020-05-19 22:19:45-log: alipay-mini-game@1.0.0 enable
+2020-05-19 22:19:45-log: android@1.0.0 enable
+2020-05-19 22:19:45-log: baidu-mini-game@1.0.0 enable
+2020-05-19 22:19:45-log: cocos-play@1.0.0 enable
+2020-05-19 22:19:45-log: huawei-mini-game@1.0.0 enable
+2020-05-19 22:19:45-log: ios@1.0.0 enable
+2020-05-19 22:19:45-log: mac@1.0.0 enable
+2020-05-19 22:19:45-log: native@1.0.0 enable
+2020-05-19 22:19:45-log: oppo-mini-game@1.0.0 enable
+2020-05-19 22:19:45-log: vivo-mini-game@1.0.0 enable
+2020-05-19 22:19:45-log: web-desktop@1.0.0 enable
+2020-05-19 22:19:45-log: web-mobile@1.0.0 enable
+2020-05-19 22:19:45-log: wechatgame@1.0.0 enable
+2020-05-19 22:19:45-log: windows@1.0.0 enable
+2020-05-19 22:19:45-log: xiaomi-quick-game@1.0.0 enable
+2020-05-19 22:19:55-warn: [Asset DB] Browserslist: caniuse-lite is outdated. Please run next command `npm update`
+2020-05-19 22:19:59-error: [Scene] Error: Can not get asset url by uuid "9d9704d8-08b4-4917-ba47-9d778bc77ac6", the asset may be deleted.
+2020-05-19 22:19:59-error: [Scene] The Asset used is missing. Detailed information:
 Missing uuid: "9d9704d8-08b4-4917-ba47-9d778bc77ac6"
 
-2020-05-18 21:00:30-error: [Scene] Error: Can not get asset url by uuid "9d9704d8-08b4-4917-ba47-9d778bc77ac6", the asset may be deleted.
-2020-05-18 21:00:30-error: [Scene] The Asset used is missing. Detailed information:
+2020-05-19 22:20:00-error: [Scene] Error: Can not get asset url by uuid "9d9704d8-08b4-4917-ba47-9d778bc77ac6", the asset may be deleted.
+2020-05-19 22:20:00-error: [Scene] The Asset used is missing. Detailed information:
 Missing uuid: "9d9704d8-08b4-4917-ba47-9d778bc77ac6"
 
-2020-05-18 21:05:20-info: asset(E:\company_project\demo-car\assets\game.scene) saved
-2020-05-18 21:05:34-info: asset(E:\company_project\demo-car\assets\game.scene) saved
-2020-05-18 21:06:23-info: asset(E:\company_project\demo-car\assets\game.scene) saved
-2020-05-18 22:18:18-info: asset(E:\company_project\demo-car\assets\game.scene) saved
-2020-05-18 22:18:22-info: asset(E:\company_project\demo-car\assets\material\coin.mtl) saved
-2020-05-18 22:29:43-info: asset(E:\company_project\demo-car\assets\game.scene) saved
-2020-05-18 22:36:47-info: asset(E:\company_project\demo-car\assets\material\coin.mtl) saved
-2020-05-18 22:38:11-info: asset(E:\company_project\demo-car\assets\material\coin.mtl) saved
-2020-05-18 22:40:38-info: asset(E:\company_project\demo-car\assets\game.scene) saved
-2020-05-18 22:43:23-warn: [Asset DB] Browserslist: caniuse-lite is outdated. Please run next command `npm update`
-2020-05-18 22:57:40-info: asset(E:\company_project\demo-car\assets\game.scene) saved
-2020-05-18 23:26:43-info: asset(E:\company_project\demo-car\assets\prefab\effect\brakeTrail.prefab) saved
-2020-05-18 23:26:47-info: asset(E:\company_project\demo-car\assets\prefab\effect\brakeTrail.prefab) saved
-2020-05-18 23:44:40-error: [preview-error]Uncaught TypeError: Cannot read property 'getComponentsInChildren' of null in http://localhost:7456/scripting/engine/cocos/particle/particle-utils.js
-2020-05-18 23:44:56-error: [preview-error]Uncaught TypeError: Cannot read property 'getComponentsInChildren' of null in http://localhost:7456/scripting/engine/cocos/particle/particle-utils.js
-2020-05-19 00:13:24-info: asset(E:\company_project\demo-car\assets\game.scene) saved
-2020-05-19 00:13:55-info: asset(E:\company_project\demo-car\assets\prefab\effect\coin.prefab) saved
-2020-05-19 00:19:59-info: asset(E:\company_project\demo-car\assets\game.scene) saved
-2020-05-19 00:25:21-error: [preview-error]Uncaught TypeError: Cannot read property 'getComponentsInChildren' of null in http://localhost:7456/scripting/engine/cocos/particle/particle-utils.js
+2020-05-19 22:20:00-error: [Scene] Error: Can not get asset url by uuid "f255dcbe-03d3-468e-a910-429de68f116e", the asset may be deleted.
+2020-05-19 22:20:01-error: [Scene] Error: Can not get asset url by uuid "f255dcbe-03d3-468e-a910-429de68f116e", the asset may be deleted.
+2020-05-19 23:04:11-info: asset meta saved
+2020-05-19 23:04:21-info: asset(E:\company_project\demo-car\assets\model\customer\2\Materials_man01.FBX\Material #2.mtl) saved
+2020-05-19 23:04:29-info: asset(E:\company_project\demo-car\assets\prefab\customer\customer02.prefab) saved
+2020-05-19 23:05:28-info: asset(E:\company_project\demo-car\assets\game.scene) saved
+2020-05-20 00:06:40-info: asset(E:\company_project\demo-car\assets\resources\car\car201.prefab) saved
+2020-05-20 00:06:46-info: asset(E:\company_project\demo-car\assets\resources\car\car202.prefab) saved
+2020-05-20 00:06:51-info: asset(E:\company_project\demo-car\assets\resources\car\car203.prefab) saved
+2020-05-20 00:06:55-info: asset(E:\company_project\demo-car\assets\resources\car\car204.prefab) saved
+2020-05-20 00:15:17-info: asset(E:\company_project\demo-car\assets\game.scene) saved
+2020-05-20 00:15:26-info: asset(E:\company_project\demo-car\assets\game.scene) saved
+2020-05-20 00:15:37-info: asset(E:\company_project\demo-car\assets\game.scene) saved
+2020-05-20 00:15:46-info: asset(E:\company_project\demo-car\assets\game.scene) saved
+2020-05-20 00:16:00-info: asset(E:\company_project\demo-car\assets\game.scene) saved
+2020-05-20 00:16:18-info: asset(E:\company_project\demo-car\assets\game.scene) saved
+2020-05-20 00:16:26-info: asset(E:\company_project\demo-car\assets\game.scene) saved
+2020-05-20 00:16:51-info: asset(E:\company_project\demo-car\assets\game.scene) saved
+2020-05-20 00:17:33-info: asset(E:\company_project\demo-car\assets\game.scene) saved
+2020-05-20 00:20:25-info: asset(E:\company_project\demo-car\assets\game.scene) saved
+2020-05-20 00:22:13-info: asset(E:\company_project\demo-car\assets\game.scene) saved

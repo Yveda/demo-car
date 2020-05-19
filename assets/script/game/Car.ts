@@ -1,3 +1,4 @@
+import { AudioManager } from './AudioManager';
 import { CustomEventListener } from './../data/CustomEventListener';
 import { Constants } from './../data/Constants';
 import { RoadPoint } from './RoadPoint';
@@ -29,9 +30,10 @@ export class Car extends Component {
   private _isMain = false;//当前是否是小车，而非ai
   private _isInOrder = false; //当前是否在订单中
   private _isBreaking = false;//是否处于刹车
-  private _gas : ParticleSystemComponent = null; //尾气
+  private _gas: ParticleSystemComponent = null; //尾气
+  private _overCD: Function = null;
 
-  public start () {
+  public start() {
     CustomEventListener.on(EventName.FINISH_EDWALK, this._finishedWalk, this);
   }
 
@@ -176,6 +178,11 @@ export class Car extends Component {
     //执行刹车
     CustomEventListener.dispatchEvent(EventName.START_BREAKING, this.node);
     this._isBreaking = true;
+    AudioManager.playSound(Constants.AudioSource.STOP);
+  }
+
+  public moveAfterFinished(cd: Function) {
+    this._overCD = cd;
   }
 
   private _arrivalStation() {
@@ -195,6 +202,8 @@ export class Car extends Component {
           this._greetingCustomer();
         } else if (this._currRoadPoint.type == RoadPoint.RoadPointType.GOODBYE) {
           this._takingCustomer();
+        } else if (this._currRoadPoint.type === RoadPoint.RoadPointType.END) {
+          AudioManager.playSound(Constants.AudioSource.WIN);
         }
       }
 
@@ -229,8 +238,14 @@ export class Car extends Component {
         this._rotMeasure = 90 / (Math.PI * r / 2);//得出一度等于多少弧度
       }
     } else {
+      //达到终点
       this._isMoving = false;
       this._currRoadPoint = null;
+
+      if (this._overCD) {
+        this._overCD(this);
+        this._overCD = null;
+      }
     }
   }
 
@@ -249,9 +264,9 @@ export class Car extends Component {
     CustomEventListener.dispatchEvent(EventName.SHOW_COIN, this.node.worldPosition);
   }
 
-  private _finishedWalk () {
+  private _finishedWalk() {
     this._isInOrder = false;
-    this._gas.play();
+    this._gas && this._gas.play();
   }
 
   //让旋转角度变成正值

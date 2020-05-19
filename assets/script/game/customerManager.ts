@@ -1,3 +1,4 @@
+import { AudioManager } from './AudioManager';
 import { Constants } from './../data/Constants';
 import { _decorator, Component, Node, Vec3, AnimationComponent } from "cc";
 import { CustomEventListener } from "../data/CustomEventListener";
@@ -46,6 +47,9 @@ export class customerManager extends Component {
                     this._currCustomer = null;
                 }
                 CustomEventListener.dispatchEvent(EventName.FINISH_EDWALK);
+                if (this._state === Constants.CustomerState.GREETING) {
+                    AudioManager.playSound(Constants.AudioSource.INCAR);
+                }
             } else {
                 //插值法的目的主要目的是限制位置的范围
                 Vec3.lerp(_tempVec, this._startPos, this._endPos, this._deltaTime / this.walkTime);
@@ -129,6 +133,8 @@ export class customerManager extends Component {
 
         const animComp = this._currCustomer.getComponent(AnimationComponent);
         animComp.play('walk');
+        AudioManager.playSound(Constants.AudioSource.GETMONEY);
+
     }
 
     // update (deltaTime: number) {

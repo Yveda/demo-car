@@ -16,23 +16,23 @@ enum CustomerState {
     GOODBYE,
 }
 
+enum AudioSource {
+    BACKGROUND = 'background',
+    CLICK = 'click',
+    CRASH = 'crash',
+    GETMONEY = 'getMoney',
+    INCAR = 'incar',
+    NEWORDER = 'newOrder',
+    START = 'start',
+    STOP = 'stop',
+    TOOTING1 = 'tooting1',
+    TOOTING2 = 'tooting2',
+    WIN = 'win',
+}
+
 @ccclass("Constants")
-export class Constants extends Component {
-    /* class member could be defined like this */
-    // dummy = '';
-
-    /* use `property` decorator if your want the member to be serializable */
-    // @property
-    // serializableDummy = 0;
-
+export class Constants {
     public static EventName = EventName;
     public static CustomerState = CustomerState;
-
-    start () {
-        // Your initialization goes here.
-    }
-
-    // update (deltaTime: number) {
-    //     // Your update function goes here.
-    // }
+    public static AudioSource = AudioSource;
 }
