@@ -2,7 +2,7 @@ import { AudioManager } from './AudioManager';
 import { CustomEventListener } from './../data/CustomEventListener';
 import { Constants } from './../data/Constants';
 import { RoadPoint } from './RoadPoint';
-import { _decorator, Component, Node, Vec3, textureUtil, ParticleSystemComponent } from "cc";
+import { _decorator, Component, Node, Vec3, textureUtil, ParticleSystemComponent, BoxColliderComponent, RigidBodyComponent, ICollisionEvent } from "cc";
 
 const { ccclass, property } = _decorator;
 
@@ -32,6 +32,7 @@ export class Car extends Component {
   private _isBreaking = false;//是否处于刹车
   private _gas: ParticleSystemComponent = null; //尾气
   private _overCD: Function = null;
+  private _camera: Node = null;
 
   public start() {
     CustomEventListener.on(EventName.FINISH_EDWALK, this._finishedWalk, this);
@@ -156,10 +157,34 @@ export class Car extends Component {
       }
     }
 
+    const collider = this.node.getComponent(BoxColliderComponent);
+    const rigidBody = this.node.getComponent(RigidBodyComponent);
     if (this._isMain) {
       const gasNode = this.node.getChildByName('gas');
       this._gas = gasNode.getComponent(ParticleSystemComponent);
       this._gas.play();
+
+      collider.on('onCollisionEnter', this._onCollisionEnter, this);
+      //我当前的组是什么
+      collider.setGroup(Constants.CarGroup.MAIN_CAR);
+      //我当前要碰撞的组是什么，玩家小车只能碰撞AI小车
+      collider.setMask(Constants.CarGroup.OTHER_CAR);
+    } else {
+      //AI小车
+      collider.setGroup(Constants.CarGroup.OTHER_CAR);
+      //所有组都检测的话就是-1，就是跟所有组都可以碰撞
+      collider.setMask(-1);
+    }
+
+    this._resetPhysical();
+  }
+
+  public setCamera(camera: Node, pos: Vec3, rotation: number) {
+    if (this._isMain) {
+      this._camera = camera;
+      this._camera.parent = this.node;
+      this._camera.setPosition(pos);
+      this._camera.eulerAngles = new Vec3(rotation, 0, 0);
     }
   }
 
@@ -183,6 +208,11 @@ export class Car extends Component {
 
   public moveAfterFinished(cd: Function) {
     this._overCD = cd;
+  }
+
+  public stopImmediately () {
+    this._isMoving = false;
+    this._currSpeed = 0;
   }
 
   private _arrivalStation() {
@@ -249,6 +279,27 @@ export class Car extends Component {
     }
   }
 
+  private _onCollisionEnter (event: ICollisionEvent) {
+    // console.log('collision enter: .......', event);
+    const otherCollider = event.otherCollider;
+    //如果碰到地面就return
+    if (otherCollider.node.name === 'group') {
+      return;
+    }
+    const otherRigidBody = otherCollider.node.getComponent(RigidBodyComponent);
+    //使用重力，不然就会飘忽不定
+    otherRigidBody.useGravity = true;
+    //施加一个被撞倒的力。然后又翻转效果，把作用点设置在顶部
+    otherRigidBody.applyForce(new Vec3(0, 3000, -1500), new Vec3(0, 0.5, 0));
+
+    const collider = event.selfCollider;
+    collider.addMask(Constants.CarGroup.NORMAL);
+
+    const rigidBody = this.node.getComponent(RigidBodyComponent);
+    rigidBody.useGravity = true;
+    this._gameOver();
+  }
+
   private _greetingCustomer() {
     this._isInOrder = true;
     this._currSpeed = 0;
@@ -265,8 +316,23 @@ export class Car extends Component {
   }
 
   private _finishedWalk() {
-    this._isInOrder = false;
-    this._gas && this._gas.play();
+    if (this._isMain) {
+      this._isInOrder = false;
+      this._gas.play();
+    }
+  }
+
+  private _gameOver () {
+    //游戏结束通知所有AI小车不要运动
+    CustomEventListener.dispatchEvent(EventName.GMAE_OVER);
+  }
+
+  private _resetPhysical () {
+    const rigidBody = this.node.getComponent(RigidBodyComponent);
+    rigidBody.useGravity = false;
+    rigidBody.sleep();
+    //从对象池里面取出来再唤醒一下
+    rigidBody.wakeUp();
   }
 
   //让旋转角度变成正值

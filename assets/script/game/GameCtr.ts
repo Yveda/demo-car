@@ -1,7 +1,7 @@
 import { AudioManager } from './AudioManager';
 import { CarManager } from './CarManager';
 import { MapManager } from './MapManager';
-import { _decorator, Component, Node, EventTouch } from "cc";
+import { _decorator, Component, Node, EventTouch, BoxColliderComponent, Vec3 } from "cc";
 import { Constants } from '../data/Constants';
 const { ccclass, property } = _decorator;
 //游戏控制类
@@ -25,10 +25,21 @@ export class GameCtr extends Component {
     })
     carManager: CarManager = null;
 
+    //地板：静态刚体，不用添加rigidBody
+    @property({
+        type: Node,
+    })
+    group: Node = null;
+
     public onLoad() {
         //数据初始化
         this.mapManager.resetMap();
         this.carManager.reset(this.mapManager.currPath);
+
+        //设置地板静态刚体
+        const collider = this.group.getComponent(BoxColliderComponent);
+        collider.setGroup(Constants.CarGroup.NORMAL);
+        collider.setMask(-1);
     }
 
     public start () {
