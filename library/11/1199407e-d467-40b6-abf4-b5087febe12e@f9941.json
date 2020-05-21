@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "image": "1199407e-d467-40b6-abf4-b5087febe12e",
+    "name": "commonRectangle8",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 1,
+      "width": 400,
+      "height": 53
+    },
+    "offset": {
+      "x": 0,
+      "y": 2.5
+    },
+    "originalSize": {
+      "width": 400,
+      "height": 60
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

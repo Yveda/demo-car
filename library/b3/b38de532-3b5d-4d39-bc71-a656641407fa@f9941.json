@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "image": "b38de532-3b5d-4d39-bc71-a656641407fa",
+    "name": "fightShieldImg01",
+    "atlas": "",
+    "rect": {
+      "x": 1,
+      "y": 1,
+      "width": 186,
+      "height": 195
+    },
+    "offset": {
+      "x": -0.5,
+      "y": 0.5
+    },
+    "originalSize": {
+      "width": 189,
+      "height": 198
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

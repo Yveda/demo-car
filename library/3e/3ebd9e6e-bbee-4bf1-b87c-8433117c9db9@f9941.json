@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "image": "3ebd9e6e-bbee-4bf1-b87c-8433117c9db9",
+    "name": "rankImgLine",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 584,
+      "height": 11
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 584,
+      "height": 11
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

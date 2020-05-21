@@ -8,10 +8,10 @@
     ".json"
   ],
   "subMetas": {
-    "6c48a": {
-      "ver": "1.0.19",
-      "importer": "texture",
-      "uuid": "9c1b76b6-a6fe-41f5-85cd-99fc9a265a88@6c48a",
+    "f9941": {
+      "ver": "1.0.8",
+      "importer": "sprite-frame",
+      "uuid": "9c1b76b6-a6fe-41f5-85cd-99fc9a265a88@f9941",
       "imported": true,
       "files": [
         ".json"
@@ -25,16 +25,32 @@
         "mipfilter": "none",
         "premultiplyAlpha": false,
         "anisotropy": 1,
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 0,
+        "trimY": 0,
+        "width": 93,
+        "height": 75,
+        "rawWidth": 93,
+        "rawHeight": 75,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "9c1b76b6-a6fe-41f5-85cd-99fc9a265a88"
+        "imageUuidOrDatabaseUri": "9c1b76b6-a6fe-41f5-85cd-99fc9a265a88",
+        "atlasUuid": ""
       },
       "displayName": "dailyImgGet",
-      "id": "6c48a",
-      "name": "texture"
+      "id": "f9941",
+      "name": "spriteFrame"
     }
   },
   "userData": {
-    "type": "texture",
-    "redirect": "9c1b76b6-a6fe-41f5-85cd-99fc9a265a88@6c48a"
+    "type": "sprite-frame",
+    "redirect": "9c1b76b6-a6fe-41f5-85cd-99fc9a265a88@f9941"
   }
 }

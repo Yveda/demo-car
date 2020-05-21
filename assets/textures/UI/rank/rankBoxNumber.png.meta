@@ -8,10 +8,10 @@
     ".json"
   ],
   "subMetas": {
-    "6c48a": {
-      "ver": "1.0.19",
-      "importer": "texture",
-      "uuid": "58ffa1e3-856d-4a32-8e30-d77e7fd4cbc0@6c48a",
+    "f9941": {
+      "ver": "1.0.8",
+      "importer": "sprite-frame",
+      "uuid": "58ffa1e3-856d-4a32-8e30-d77e7fd4cbc0@f9941",
       "imported": true,
       "files": [
         ".json"
@@ -25,16 +25,32 @@
         "mipfilter": "none",
         "premultiplyAlpha": false,
         "anisotropy": 1,
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 0,
+        "trimY": 0,
+        "width": 203,
+        "height": 53,
+        "rawWidth": 203,
+        "rawHeight": 53,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "58ffa1e3-856d-4a32-8e30-d77e7fd4cbc0"
+        "imageUuidOrDatabaseUri": "58ffa1e3-856d-4a32-8e30-d77e7fd4cbc0",
+        "atlasUuid": ""
       },
       "displayName": "rankBoxNumber",
-      "id": "6c48a",
-      "name": "texture"
+      "id": "f9941",
+      "name": "spriteFrame"
     }
   },
   "userData": {
-    "type": "texture",
-    "redirect": "58ffa1e3-856d-4a32-8e30-d77e7fd4cbc0@6c48a"
+    "type": "sprite-frame",
+    "redirect": "58ffa1e3-856d-4a32-8e30-d77e7fd4cbc0@f9941"
   }
 }

@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "image": "9c1b76b6-a6fe-41f5-85cd-99fc9a265a88",
+    "name": "dailyImgGet",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 93,
+      "height": 75
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 93,
+      "height": 75
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

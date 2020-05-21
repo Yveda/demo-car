@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "image": "49c60c72-0fab-4547-82e2-f36d6a8ac67c",
+    "name": "homeBoxGame03",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 1,
+      "width": 268,
+      "height": 209
+    },
+    "offset": {
+      "x": 0,
+      "y": -0.5
+    },
+    "originalSize": {
+      "width": 268,
+      "height": 210
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

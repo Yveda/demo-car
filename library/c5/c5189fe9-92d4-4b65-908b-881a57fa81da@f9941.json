@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "image": "c5189fe9-92d4-4b65-908b-881a57fa81da",
+    "name": "fightImgStar",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 349,
+      "height": 282
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 349,
+      "height": 282
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

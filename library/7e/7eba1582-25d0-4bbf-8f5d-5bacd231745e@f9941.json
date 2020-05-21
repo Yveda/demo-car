@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "image": "7eba1582-25d0-4bbf-8f5d-5bacd231745e",
+    "name": "homeLogo",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 434,
+      "height": 116
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 434,
+      "height": 116
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

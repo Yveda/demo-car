@@ -8,10 +8,10 @@
     ".json"
   ],
   "subMetas": {
-    "6c48a": {
-      "ver": "1.0.19",
-      "importer": "texture",
-      "uuid": "39dcc6fa-d6f4-4c64-8ad4-d3922a13ba40@6c48a",
+    "f9941": {
+      "ver": "1.0.8",
+      "importer": "sprite-frame",
+      "uuid": "39dcc6fa-d6f4-4c64-8ad4-d3922a13ba40@f9941",
       "imported": true,
       "files": [
         ".json"
@@ -25,16 +25,32 @@
         "mipfilter": "none",
         "premultiplyAlpha": false,
         "anisotropy": 1,
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 0,
+        "trimY": 0,
+        "width": 120,
+        "height": 110,
+        "rawWidth": 120,
+        "rawHeight": 110,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "39dcc6fa-d6f4-4c64-8ad4-d3922a13ba40"
+        "imageUuidOrDatabaseUri": "39dcc6fa-d6f4-4c64-8ad4-d3922a13ba40",
+        "atlasUuid": ""
       },
       "displayName": "dailyImg01",
-      "id": "6c48a",
-      "name": "texture"
+      "id": "f9941",
+      "name": "spriteFrame"
     }
   },
   "userData": {
-    "type": "texture",
-    "redirect": "39dcc6fa-d6f4-4c64-8ad4-d3922a13ba40@6c48a"
+    "type": "sprite-frame",
+    "redirect": "39dcc6fa-d6f4-4c64-8ad4-d3922a13ba40@f9941"
   }
 }

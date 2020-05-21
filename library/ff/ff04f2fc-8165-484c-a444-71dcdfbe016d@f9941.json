@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "image": "ff04f2fc-8165-484c-a444-71dcdfbe016d",
+    "name": "fightBox2a",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 75,
+      "height": 31
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 75,
+      "height": 31
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

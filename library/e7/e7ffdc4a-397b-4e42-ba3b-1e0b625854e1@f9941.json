@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "image": "e7ffdc4a-397b-4e42-ba3b-1e0b625854e1",
+    "name": "homeIconGold",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 82,
+      "height": 82
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 82,
+      "height": 82
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

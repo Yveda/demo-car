@@ -8,10 +8,10 @@
     ".json"
   ],
   "subMetas": {
-    "6c48a": {
-      "ver": "1.0.19",
-      "importer": "texture",
-      "uuid": "a9c6ebcd-3605-40d0-8bdd-4cff1cdfe420@6c48a",
+    "f9941": {
+      "ver": "1.0.8",
+      "importer": "sprite-frame",
+      "uuid": "a9c6ebcd-3605-40d0-8bdd-4cff1cdfe420@f9941",
       "imported": true,
       "files": [
         ".json"
@@ -25,16 +25,32 @@
         "mipfilter": "none",
         "premultiplyAlpha": false,
         "anisotropy": 1,
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0.5,
+        "trimX": 0,
+        "trimY": 0,
+        "width": 320,
+        "height": 319,
+        "rawWidth": 320,
+        "rawHeight": 320,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "a9c6ebcd-3605-40d0-8bdd-4cff1cdfe420"
+        "imageUuidOrDatabaseUri": "a9c6ebcd-3605-40d0-8bdd-4cff1cdfe420",
+        "atlasUuid": ""
       },
       "displayName": "dailyImgLight",
-      "id": "6c48a",
-      "name": "texture"
+      "id": "f9941",
+      "name": "spriteFrame"
     }
   },
   "userData": {
-    "type": "texture",
-    "redirect": "a9c6ebcd-3605-40d0-8bdd-4cff1cdfe420@6c48a"
+    "type": "sprite-frame",
+    "redirect": "a9c6ebcd-3605-40d0-8bdd-4cff1cdfe420@f9941"
   }
 }

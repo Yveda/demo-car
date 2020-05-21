@@ -1,56 +1,272 @@
-2020-05-20 22:08:56-log: ui-kit@1.0.0 enable
-2020-05-20 22:08:56-log: ipc@1.0.0 enable
-2020-05-20 22:08:56-log: tester@1.0.0 enable
-2020-05-20 22:08:56-log: preferences@1.0.0 enable
-2020-05-20 22:08:59-log: engine@1.0.0 enable
-2020-05-20 22:09:00-log: asset-db@1.0.0 enable
-2020-05-20 22:09:00-log: console@1.0.0 enable
-2020-05-20 22:09:00-log: scene@1.0.0 enable
-2020-05-20 22:09:00-log: packager@1.0.0 enable
-2020-05-20 22:09:00-log: project-setting@1.0.0 enable
-2020-05-20 22:09:00-log: about@1.0.0 enable
-2020-05-20 22:09:00-log: server@1.0.0 enable
-2020-05-20 22:09:00-log: utils@1.0.0 enable
-2020-05-20 22:09:00-log: profile@1.0.0 enable
-2020-05-20 22:09:00-log: assets@1.0.0 enable
-2020-05-20 22:09:00-log: inspector@1.0.0 enable
-2020-05-20 22:09:00-log: hierarchy@1.0.0 enable
-2020-05-20 22:09:00-log: preview@1.0.0 enable
-2020-05-20 22:09:00-log: animator@1.0.0 enable
-2020-05-20 22:09:01-log: builder@1.0.0 enable
-2020-05-20 22:09:01-log: alipay-mini-game@1.0.0 enable
-2020-05-20 22:09:01-log: android@1.0.0 enable
-2020-05-20 22:09:01-log: baidu-mini-game@1.0.0 enable
-2020-05-20 22:09:01-log: cocos-play@1.0.0 enable
-2020-05-20 22:09:01-log: huawei-mini-game@1.0.0 enable
-2020-05-20 22:09:01-log: ios@1.0.0 enable
-2020-05-20 22:09:01-log: mac@1.0.0 enable
-2020-05-20 22:09:01-log: native@1.0.0 enable
-2020-05-20 22:09:01-log: oppo-mini-game@1.0.0 enable
-2020-05-20 22:09:01-log: vivo-mini-game@1.0.0 enable
-2020-05-20 22:09:01-log: web-desktop@1.0.0 enable
-2020-05-20 22:09:01-log: web-mobile@1.0.0 enable
-2020-05-20 22:09:01-log: wechatgame@1.0.0 enable
-2020-05-20 22:09:01-log: windows@1.0.0 enable
-2020-05-20 22:09:01-log: xiaomi-quick-game@1.0.0 enable
-2020-05-20 22:09:11-warn: [Asset DB] Browserslist: caniuse-lite is outdated. Please run next command `npm update`
-2020-05-20 22:09:16-error: [Scene] Error: Can not get asset url by uuid "9d9704d8-08b4-4917-ba47-9d778bc77ac6", the asset may be deleted.
-2020-05-20 22:09:16-error: [Scene] The Asset used is missing. Detailed information:
+2020-05-21 20:45:00-log: ui-kit@1.0.0 enable
+2020-05-21 20:45:00-log: ipc@1.0.0 enable
+2020-05-21 20:45:01-log: tester@1.0.0 enable
+2020-05-21 20:45:01-log: preferences@1.0.0 enable
+2020-05-21 20:45:36-log: engine@1.0.0 enable
+2020-05-21 20:45:37-log: asset-db@1.0.0 enable
+2020-05-21 20:45:37-log: console@1.0.0 enable
+2020-05-21 20:45:37-log: scene@1.0.0 enable
+2020-05-21 20:45:37-log: packager@1.0.0 enable
+2020-05-21 20:45:37-log: project-setting@1.0.0 enable
+2020-05-21 20:45:37-log: about@1.0.0 enable
+2020-05-21 20:45:41-log: server@1.0.0 enable
+2020-05-21 20:45:41-log: utils@1.0.0 enable
+2020-05-21 20:45:42-log: profile@1.0.0 enable
+2020-05-21 20:45:42-log: assets@1.0.0 enable
+2020-05-21 20:45:42-log: inspector@1.0.0 enable
+2020-05-21 20:45:42-log: hierarchy@1.0.0 enable
+2020-05-21 20:45:42-log: preview@1.0.0 enable
+2020-05-21 20:45:42-log: animator@1.0.0 enable
+2020-05-21 20:45:45-log: builder@1.0.0 enable
+2020-05-21 20:45:45-log: alipay-mini-game@1.0.0 enable
+2020-05-21 20:45:45-log: android@1.0.0 enable
+2020-05-21 20:45:45-log: baidu-mini-game@1.0.0 enable
+2020-05-21 20:45:45-log: cocos-play@1.0.0 enable
+2020-05-21 20:45:45-log: huawei-mini-game@1.0.0 enable
+2020-05-21 20:45:45-log: ios@1.0.0 enable
+2020-05-21 20:45:45-log: mac@1.0.0 enable
+2020-05-21 20:45:45-log: native@1.0.0 enable
+2020-05-21 20:45:45-log: oppo-mini-game@1.0.0 enable
+2020-05-21 20:45:45-log: vivo-mini-game@1.0.0 enable
+2020-05-21 20:45:45-log: web-desktop@1.0.0 enable
+2020-05-21 20:45:45-log: web-mobile@1.0.0 enable
+2020-05-21 20:45:45-log: wechatgame@1.0.0 enable
+2020-05-21 20:45:45-log: windows@1.0.0 enable
+2020-05-21 20:45:45-log: xiaomi-quick-game@1.0.0 enable
+2020-05-21 20:45:51-warn: [Scene] Sender does not exist
+2020-05-21 20:45:59-warn: [Asset DB] Browserslist: caniuse-lite is outdated. Please run next command `npm update`
+2020-05-21 20:46:04-error: [Scene] Error: Can not get asset url by uuid "9d9704d8-08b4-4917-ba47-9d778bc77ac6", the asset may be deleted.
+2020-05-21 20:46:04-error: [Scene] The Asset used is missing. Detailed information:
 Missing uuid: "9d9704d8-08b4-4917-ba47-9d778bc77ac6"
 
-2020-05-20 22:09:16-error: [Scene] Error: Can not get asset url by uuid "9d9704d8-08b4-4917-ba47-9d778bc77ac6", the asset may be deleted.
-2020-05-20 22:09:16-error: [Scene] The Asset used is missing. Detailed information:
+2020-05-21 20:46:05-error: [Scene] Error: Can not get asset url by uuid "9d9704d8-08b4-4917-ba47-9d778bc77ac6", the asset may be deleted.
+2020-05-21 20:46:05-error: [Scene] The Asset used is missing. Detailed information:
 Missing uuid: "9d9704d8-08b4-4917-ba47-9d778bc77ac6"
 
-2020-05-20 22:16:32-info: asset(E:\company_project\demo-car\assets\resources\car\car101.prefab) saved
-2020-05-20 22:17:00-info: asset(E:\company_project\demo-car\assets\resources\car\car101.prefab) saved
-2020-05-20 22:17:02-info: asset(E:\company_project\demo-car\assets\resources\car\car101.prefab) saved
-2020-05-20 22:18:30-info: asset(E:\company_project\demo-car\assets\resources\car\car201.prefab) saved
-2020-05-20 22:19:14-info: asset(E:\company_project\demo-car\assets\resources\car\car202.prefab) saved
-2020-05-20 22:52:49-info: asset(E:\company_project\demo-car\assets\game.scene) saved
-2020-05-20 22:53:04-error: [preview-error]Uncaught TypeError: Cannot read property 'on' of null in http://localhost:7456/scripting/assets/script/game/Car.js
-2020-05-20 22:53:43-info: asset(E:\company_project\demo-car\assets\game.scene) saved
-2020-05-20 22:54:07-info: asset(E:\company_project\demo-car\assets\game.scene) saved
-2020-05-20 22:54:07-info: asset(E:\company_project\demo-car\assets\game.scene) saved
-2020-05-20 23:28:57-info: asset(E:\company_project\demo-car\assets\game.scene) saved
-2020-05-21 00:09:10-info: asset(E:\company_project\demo-car\assets\game.scene) saved
+2020-05-21 21:31:53-info: asset meta saved
+2020-05-21 21:31:53-info: asset meta saved
+2020-05-21 21:31:53-info: asset meta saved
+2020-05-21 21:31:53-info: asset meta saved
+2020-05-21 21:31:53-info: asset meta saved
+2020-05-21 21:31:53-info: asset meta saved
+2020-05-21 21:31:53-info: asset meta saved
+2020-05-21 21:31:53-info: asset meta saved
+2020-05-21 21:31:53-info: asset meta saved
+2020-05-21 21:31:53-info: asset meta saved
+2020-05-21 21:31:53-info: asset meta saved
+2020-05-21 21:31:53-info: asset meta saved
+2020-05-21 21:31:53-info: asset meta saved
+2020-05-21 21:31:54-warn: [Window] Load thumbnail failed: db://assets/textures/UI/common/commonRectangle1.png
+2020-05-21 21:31:54-warn: [Window] Load thumbnail failed: db://assets/textures/UI/common/commonRectangle1.png
+2020-05-21 21:31:55-warn: [Window] Load thumbnail failed: db://assets/textures/UI/common/commonRectangle1.png
+2020-05-21 21:31:55-warn: [Window] Load thumbnail failed: db://assets/textures/UI/common/commonRectangle1.png
+2020-05-21 21:31:56-warn: [Window] Load thumbnail failed: db://assets/textures/UI/common/commonRectangle1.png
+2020-05-21 21:31:56-warn: [Window] Load thumbnail failed: db://assets/textures/UI/common/commonRectangle1.png
+2020-05-21 21:31:56-warn: [Window] Load thumbnail failed: db://assets/textures/UI/common/commonRectangle1.png
+2020-05-21 21:32:01-info: asset meta saved
+2020-05-21 21:32:01-info: asset meta saved
+2020-05-21 21:32:01-info: asset meta saved
+2020-05-21 21:32:01-info: asset meta saved
+2020-05-21 21:32:01-info: asset meta saved
+2020-05-21 21:32:01-info: asset meta saved
+2020-05-21 21:32:02-warn: [Window] Load thumbnail failed: db://assets/textures/UI/common/commonRectangle1.png
+2020-05-21 21:32:02-warn: [Window] Load thumbnail failed: db://assets/textures/UI/daily/dailyImgLight.png
+2020-05-21 21:32:02-error: [Scene] Error: Can not get asset url by uuid "a9c6ebcd-3605-40d0-8bdd-4cff1cdfe420", the asset may be deleted.
+2020-05-21 21:32:02-error: [Scene] Error: Can not get asset url by uuid "a9c6ebcd-3605-40d0-8bdd-4cff1cdfe420@f9941", the asset may be deleted.
+2020-05-21 21:32:03-warn: [Window] Load thumbnail failed: db://assets/textures/UI/common/commonRectangle1.png
+2020-05-21 21:32:03-warn: [Window] Load thumbnail failed: db://assets/textures/UI/daily/dailyImgLight.png
+2020-05-21 21:32:03-warn: [Window] Load thumbnail failed: db://assets/textures/UI/common/commonRectangle1.png
+2020-05-21 21:32:13-info: asset meta saved
+2020-05-21 21:32:13-info: asset meta saved
+2020-05-21 21:32:13-info: asset meta saved
+2020-05-21 21:32:13-info: asset meta saved
+2020-05-21 21:32:13-info: asset meta saved
+2020-05-21 21:32:13-info: asset meta saved
+2020-05-21 21:32:13-info: asset meta saved
+2020-05-21 21:32:13-info: asset meta saved
+2020-05-21 21:32:13-info: asset meta saved
+2020-05-21 21:32:13-info: asset meta saved
+2020-05-21 21:32:13-info: asset meta saved
+2020-05-21 21:32:13-info: asset meta saved
+2020-05-21 21:32:13-info: asset meta saved
+2020-05-21 21:32:13-info: asset meta saved
+2020-05-21 21:32:13-info: asset meta saved
+2020-05-21 21:32:13-info: asset meta saved
+2020-05-21 21:32:13-info: asset meta saved
+2020-05-21 21:32:13-info: asset meta saved
+2020-05-21 21:32:13-info: asset meta saved
+2020-05-21 21:32:13-info: asset meta saved
+2020-05-21 21:32:13-info: asset meta saved
+2020-05-21 21:32:13-info: asset meta saved
+2020-05-21 21:32:13-info: asset meta saved
+2020-05-21 21:32:13-info: asset meta saved
+2020-05-21 21:32:16-warn: [Asset DB] Asset(b38de532-3b5d-4d39-bc71-a656641407fa) has been imported and cannot be added(subAsset) to it
+2020-05-21 21:32:17-error: [Scene] Error: Can not get asset url by uuid "ec4ba3b2-14a6-4f16-9a25-27dbb8b0eef5@f9941", the asset may be deleted.
+2020-05-21 21:32:30-info: asset meta saved
+2020-05-21 21:32:30-info: asset meta saved
+2020-05-21 21:32:30-info: asset meta saved
+2020-05-21 21:32:30-info: asset meta saved
+2020-05-21 21:32:30-info: asset meta saved
+2020-05-21 21:32:30-info: asset meta saved
+2020-05-21 21:32:30-info: asset meta saved
+2020-05-21 21:32:30-info: asset meta saved
+2020-05-21 21:32:30-info: asset meta saved
+2020-05-21 21:32:30-info: asset meta saved
+2020-05-21 21:32:30-info: asset meta saved
+2020-05-21 21:32:30-info: asset meta saved
+2020-05-21 21:32:30-info: asset meta saved
+2020-05-21 21:32:30-info: asset meta saved
+2020-05-21 21:32:30-info: asset meta saved
+2020-05-21 21:32:30-info: asset meta saved
+2020-05-21 21:32:30-info: asset meta saved
+2020-05-21 21:32:30-info: asset meta saved
+2020-05-21 21:32:30-info: asset meta saved
+2020-05-21 21:32:30-info: asset meta saved
+2020-05-21 21:32:30-info: asset meta saved
+2020-05-21 21:32:30-info: asset meta saved
+2020-05-21 21:32:32-warn: [Window] Load thumbnail failed: db://assets/textures/UI/home/homeIconGame.png
+2020-05-21 21:32:32-warn: [Window] Load thumbnail failed: db://assets/textures/UI/home/homeIconDaily.png
+2020-05-21 21:32:32-warn: [Window] Load thumbnail failed: db://assets/textures/UI/home/homeIconGold.png
+2020-05-21 21:32:32-warn: [Window] Load thumbnail failed: db://assets/textures/UI/home/homeIconCar.png
+2020-05-21 21:32:32-warn: [Window] Load thumbnail failed: db://assets/textures/UI/home/homeIconGame.png
+2020-05-21 21:32:32-warn: [Window] Load thumbnail failed: db://assets/textures/UI/home/homeIconGold.png
+2020-05-21 21:32:32-warn: [Window] Load thumbnail failed: db://assets/textures/UI/home/homeIconDaily.png
+2020-05-21 21:32:32-warn: [Window] Load thumbnail failed: db://assets/textures/UI/home/homeIconGame.png
+2020-05-21 21:32:32-warn: [Window] Load thumbnail failed: db://assets/textures/UI/home/homeIconCar.png
+2020-05-21 21:32:32-warn: [Window] Load thumbnail failed: db://assets/textures/UI/home/homeIconGold.png
+2020-05-21 21:32:32-warn: [Window] Load thumbnail failed: db://assets/textures/UI/home/homeIconDaily.png
+2020-05-21 21:32:32-warn: [Window] Load thumbnail failed: db://assets/textures/UI/home/homeIconCar.png
+2020-05-21 21:32:32-warn: [Asset DB] Asset(7eba1582-25d0-4bbf-8f5d-5bacd231745e) has been imported and cannot be added(subAsset) to it
+2020-05-21 21:32:32-warn: [Window] Load thumbnail failed: db://assets/textures/UI/home/homeIconDaily.png
+2020-05-21 21:32:32-warn: [Window] Load thumbnail failed: db://assets/textures/UI/home/homeIconGame.png
+2020-05-21 21:32:32-warn: [Window] Load thumbnail failed: db://assets/textures/UI/home/homeIconGold.png
+2020-05-21 21:32:32-warn: [Window] Load thumbnail failed: db://assets/textures/UI/home/homeIconCar.png
+2020-05-21 21:32:32-warn: [Window] Load thumbnail failed: db://assets/textures/UI/home/homeLogo.png
+2020-05-21 21:32:32-warn: [Window] Load thumbnail failed: db://assets/textures/UI/home/homeLogo.png
+2020-05-21 21:32:37-info: asset meta saved
+2020-05-21 21:32:37-info: asset meta saved
+2020-05-21 21:32:37-info: asset meta saved
+2020-05-21 21:32:37-info: asset meta saved
+2020-05-21 21:32:37-info: asset meta saved
+2020-05-21 21:32:46-info: asset meta saved
+2020-05-21 21:32:46-info: asset meta saved
+2020-05-21 21:32:46-info: asset meta saved
+2020-05-21 21:32:46-info: asset meta saved
+2020-05-21 21:32:46-info: asset meta saved
+2020-05-21 21:32:51-info: asset meta saved
+2020-05-21 21:32:51-info: asset meta saved
+2020-05-21 21:32:51-info: asset meta saved
+2020-05-21 21:32:51-info: asset meta saved
+2020-05-21 21:32:56-warn: [Window] Load thumbnail failed: db://assets/textures/UI/common/commonRectangle1.png
+2020-05-21 21:32:56-warn: [Window] Load thumbnail failed: db://assets/textures/UI/common/commonRectangle1.png
+2020-05-21 21:32:56-warn: [Window] Load thumbnail failed: db://assets/textures/UI/common/commonRectangle1.png
+2020-05-21 21:32:56-warn: [Window] Load thumbnail failed: db://assets/textures/UI/common/commonRectangle1.png
+2020-05-21 21:32:56-warn: [Window] Load thumbnail failed: db://assets/textures/UI/common/commonRectangle1.png
+2020-05-21 21:33:06-warn: [Window] Load thumbnail failed: db://assets/textures/UI/common/commonRectangle1.png
+2020-05-21 21:33:06-warn: [Window] Load thumbnail failed: db://assets/textures/UI/common/commonRectangle1.png
+2020-05-21 21:33:06-warn: [Window] Load thumbnail failed: db://assets/textures/UI/common/commonRectangle1.png
+2020-05-21 21:33:06-warn: [Window] Load thumbnail failed: db://assets/textures/UI/common/commonRectangle1.png
+2020-05-21 21:33:06-warn: [Window] Load thumbnail failed: db://assets/textures/UI/common/commonRectangle1.png
+2020-05-21 21:33:08-warn: [Window] Load thumbnail failed: db://assets/textures/UI/common/commonRectangle1.png
+2020-05-21 21:33:08-warn: [Window] Load thumbnail failed: db://assets/textures/UI/common/commonRectangle1.png
+2020-05-21 21:33:13-warn: [Window] Load thumbnail failed: db://assets/textures/UI/common/commonRectangle1.png
+2020-05-21 21:33:13-warn: [Window] Load thumbnail failed: db://assets/textures/UI/common/commonRectangle1.png
+2020-05-21 21:33:13-warn: [Window] Load thumbnail failed: db://assets/textures/UI/common/commonRectangle1.png
+2020-05-21 21:34:08-info: asset(E:\company_project\demo-car\assets\game.scene) saved
+2020-05-21 21:35:19-info: asset(E:\company_project\demo-car\assets\game.scene) saved
+2020-05-21 21:35:27-info: asset(E:\company_project\demo-car\assets\game.scene) saved
+2020-05-21 21:35:32-info: asset(E:\company_project\demo-car\assets\game.scene) saved
+2020-05-21 21:37:26-info: asset(E:\company_project\demo-car\assets\game.scene) saved
+2020-05-21 21:37:56-info: asset(E:\company_project\demo-car\assets\game.scene) saved
+2020-05-21 21:38:05-info: asset(E:\company_project\demo-car\assets\game.scene) saved
+2020-05-21 21:38:32-error: [Window] [Vue warn]: Error in v-on handler: "SyntaxError: Invalid regular expression: /ei\/: \ at end of pattern"
+
+(found in <Root>)
+2020-05-21 21:38:32-error: [Window] SyntaxError: Invalid regular expression: /ei\/: \ at end of pattern
+2020-05-21 21:38:43-info: asset(E:\company_project\demo-car\assets\game.scene) saved
+2020-05-21 21:39:21-info: asset(E:\company_project\demo-car\assets\game.scene) saved
+2020-05-21 21:39:39-warn: [Window] Load thumbnail failed: db://assets/textures/UI/common/commonRectangle1.png
+2020-05-21 21:39:39-warn: [Window] Load thumbnail failed: db://assets/textures/UI/common/commonRectangle1.png
+2020-05-21 21:39:39-warn: [Window] Load thumbnail failed: db://assets/textures/UI/common/commonRectangle1.png
+2020-05-21 21:39:40-warn: [Window] Load thumbnail failed: db://assets/textures/UI/common/commonRectangle1.png
+2020-05-21 21:39:40-warn: [Window] Load thumbnail failed: db://assets/textures/UI/common/commonRectangle1.png
+2020-05-21 21:39:42-warn: [Window] Load thumbnail failed: db://assets/textures/UI/common/commonRectangle1.png
+2020-05-21 21:39:42-warn: [Window] Load thumbnail failed: db://assets/textures/UI/common/commonRectangle1.png
+2020-05-21 21:39:44-warn: [Window] Load thumbnail failed: db://assets/textures/UI/common/commonRectangle1.png
+2020-05-21 21:39:47-warn: [Window] Load thumbnail failed: db://assets/textures/UI/common/commonRectangle1.png
+2020-05-21 21:39:56-warn: [Window] Load thumbnail failed: db://assets/textures/UI/common/commonRectangle1.png
+2020-05-21 21:40:01-warn: [Window] Load thumbnail failed: db://assets/textures/UI/common/commonRectangle1.png
+2020-05-21 21:40:01-warn: [Window] Load thumbnail failed: db://assets/textures/UI/common/commonRectangle1.png
+2020-05-21 21:40:52-warn: [Window] Load thumbnail failed: db://assets/textures/UI/common/commonRectangle1.png
+2020-05-21 21:40:52-warn: [Window] Load thumbnail failed: db://assets/textures/UI/common/commonRectangle1.png
+2020-05-21 21:40:52-warn: [Window] Load thumbnail failed: db://assets/textures/UI/common/commonRectangle1.png
+2020-05-21 21:40:52-warn: [Window] Load thumbnail failed: db://assets/textures/UI/common/commonRectangle1.png
+2020-05-21 21:41:23-info: asset(E:\company_project\demo-car\assets\game.scene) saved
+2020-05-21 21:47:44-warn: [Window] Load thumbnail failed: db://assets/textures/UI/common/commonRectangle1.png
+2020-05-21 21:47:45-warn: [Window] Load thumbnail failed: db://assets/textures/UI/common/commonRectangle1.png
+2020-05-21 21:47:45-warn: [Window] Load thumbnail failed: db://assets/textures/UI/common/commonRectangle1.png
+2020-05-21 21:47:45-warn: [Window] Load thumbnail failed: db://assets/textures/UI/common/commonRectangle1.png
+2020-05-21 21:47:47-warn: [Window] Load thumbnail failed: db://assets/textures/UI/common/commonRectangle1.png
+2020-05-21 21:47:47-warn: [Window] Load thumbnail failed: db://assets/textures/UI/common/commonRectangle1.png
+2020-05-21 21:47:47-warn: [Window] Load thumbnail failed: db://assets/textures/UI/common/commonRectangle1.png
+2020-05-21 21:47:47-warn: [Window] Load thumbnail failed: db://assets/textures/UI/common/commonRectangle1.png
+2020-05-21 21:47:49-warn: [Window] Load thumbnail failed: db://assets/textures/UI/common/commonRectangle1.png
+2020-05-21 21:47:49-warn: [Window] Load thumbnail failed: db://assets/textures/UI/common/commonRectangle1.png
+2020-05-21 21:47:49-warn: [Window] Load thumbnail failed: db://assets/textures/UI/common/commonRectangle1.png
+2020-05-21 21:47:49-warn: [Window] Load thumbnail failed: db://assets/textures/UI/common/commonRectangle1.png
+2020-05-21 21:53:45-info: asset(E:\company_project\demo-car\assets\game.scene) saved
+2020-05-21 21:57:03-info: asset(E:\company_project\demo-car\assets\game.scene) saved
+2020-05-21 21:59:24-info: asset(E:\company_project\demo-car\assets\game.scene) saved
+2020-05-21 21:59:26-info: asset meta saved
+2020-05-21 21:59:47-info: asset meta saved
+2020-05-21 22:00:49-info: asset meta saved
+2020-05-21 22:01:03-info: asset(E:\company_project\demo-car\assets\game.scene) saved
+2020-05-21 22:03:29-info: asset(E:\company_project\demo-car\assets\game.scene) saved
+2020-05-21 22:05:17-info: asset(E:\company_project\demo-car\assets\game.scene) saved
+2020-05-21 22:05:42-info: asset(E:\company_project\demo-car\assets\game.scene) saved
+2020-05-21 22:15:08-warn: [Window] Load thumbnail failed: db://assets/textures/UI/common/commonRectangle1.png
+2020-05-21 22:15:08-warn: [Window] Load thumbnail failed: db://assets/textures/UI/common/commonRectangle1.png
+2020-05-21 22:15:08-warn: [Window] Load thumbnail failed: db://assets/textures/UI/common/commonRectangle1.png
+2020-05-21 22:15:30-warn: [Window] Please select the correct path under the project assets folder
+2020-05-21 22:40:53-warn: [Window] Load thumbnail failed: db://assets/textures/UI/common/commonRectangle1.png
+2020-05-21 22:40:53-warn: [Window] Load thumbnail failed: db://assets/textures/UI/common/commonRectangle1.png
+2020-05-21 22:40:53-warn: [Window] Load thumbnail failed: db://assets/textures/UI/common/commonRectangle1.png
+2020-05-21 22:40:53-warn: [Window] Load thumbnail failed: db://assets/textures/UI/common/commonRectangle1.png
+2020-05-21 22:40:54-warn: [Window] Load thumbnail failed: db://assets/textures/UI/common/commonRectangle1.png
+2020-05-21 22:40:54-warn: [Window] Load thumbnail failed: db://assets/textures/UI/common/commonRectangle1.png
+2020-05-21 22:40:54-warn: [Window] Load thumbnail failed: db://assets/textures/UI/common/commonRectangle1.png
+2020-05-21 22:40:54-warn: [Window] Load thumbnail failed: db://assets/textures/UI/common/commonRectangle1.png
+2020-05-21 22:40:55-warn: [Window] Load thumbnail failed: db://assets/textures/UI/common/commonRectangle1.png
+2020-05-21 22:41:11-info: asset(E:\company_project\demo-car\assets\anim\showGuide.anim) saved
+2020-05-21 22:42:19-info: asset(E:\company_project\demo-car\assets\anim\showGuide.anim) saved
+2020-05-21 22:42:21-info: asset(E:\company_project\demo-car\assets\anim\showGuide.anim) saved
+2020-05-21 22:42:32-warn: [Window] Load thumbnail failed: db://assets/textures/UI/common/commonRectangle1.png
+2020-05-21 22:42:32-warn: [Window] Load thumbnail failed: db://assets/textures/UI/common/commonRectangle1.png
+2020-05-21 22:42:37-warn: [Window] Load thumbnail failed: db://assets/textures/UI/common/commonRectangle1.png
+2020-05-21 22:43:52-warn: [Window] Load thumbnail failed: db://assets/textures/UI/common/commonRectangle1.png
+2020-05-21 22:45:09-info: asset(E:\company_project\demo-car\assets\game.scene) saved
+2020-05-21 22:45:41-info: asset(E:\company_project\demo-car\assets\game.scene) saved
+2020-05-21 22:47:03-info: asset(E:\company_project\demo-car\assets\game.scene) saved
+2020-05-21 22:47:30-info: asset meta saved
+2020-05-21 22:51:11-warn: [Window] Load thumbnail failed: db://assets/textures/UI/common/commonRectangle1.png
+2020-05-21 22:51:11-warn: [Window] Load thumbnail failed: db://assets/textures/UI/common/commonRectangle1.png
+2020-05-21 22:51:12-warn: [Window] Load thumbnail failed: db://assets/textures/UI/common/commonRectangle1.png
+2020-05-21 22:51:12-warn: [Window] Load thumbnail failed: db://assets/textures/UI/common/commonRectangle1.png
+2020-05-21 22:51:12-warn: [Window] Load thumbnail failed: db://assets/textures/UI/common/commonRectangle1.png
+2020-05-21 22:51:12-warn: [Window] Load thumbnail failed: db://assets/textures/UI/common/commonRectangle1.png
+2020-05-22 00:03:59-error: [Window] [Vue warn]: Error in callback for watcher "updateSelect": "TypeError: Cannot read property 'cc.SpriteComponent.spriteFrame' of undefined"
+
+found in
+
+---> <PreviewRow>
+       <Root>
+2020-05-22 00:03:59-error: [Window] TypeError: Cannot read property 'cc.SpriteComponent.spriteFrame' of undefined
+2020-05-22 00:06:37-warn: [Window] Load thumbnail failed: db://assets/textures/UI/common/commonRectangle1.png
+2020-05-22 00:06:43-warn: [Window] Load thumbnail failed: db://assets/textures/UI/common/commonRectangle1.png
+2020-05-22 00:06:43-warn: [Window] Load thumbnail failed: db://assets/textures/UI/common/commonRectangle1.png
+2020-05-22 00:06:43-warn: [Window] Load thumbnail failed: db://assets/textures/UI/common/commonRectangle1.png
+2020-05-22 00:06:53-info: asset(E:\company_project\demo-car\assets\resources\ui\gameUI.prefab) saved
+2020-05-22 00:06:54-warn: [Window] Load thumbnail failed: db://assets/textures/UI/common/commonRectangle1.png
+2020-05-22 00:10:00-info: asset(E:\company_project\demo-car\assets\resources\ui\gameUI.prefab) saved
+2020-05-22 00:10:09-info: asset(E:\company_project\demo-car\assets\resources\ui\mainUI.prefab) saved
+2020-05-22 00:10:18-info: asset(E:\company_project\demo-car\assets\resources\ui\resultUI.prefab) saved

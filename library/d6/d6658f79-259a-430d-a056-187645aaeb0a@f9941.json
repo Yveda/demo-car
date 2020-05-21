@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "image": "d6658f79-259a-430d-a056-187645aaeb0a",
+    "name": "fightLineRed",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 308,
+      "height": 308
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 308,
+      "height": 308
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "image": "24f3e4b3-aaf1-4b09-b250-d89436a58bb4",
+    "name": "commonIconGold",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 49,
+      "height": 52
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 49,
+      "height": 52
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

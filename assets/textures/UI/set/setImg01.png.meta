@@ -8,10 +8,10 @@
     ".json"
   ],
   "subMetas": {
-    "6c48a": {
-      "ver": "1.0.19",
-      "importer": "texture",
-      "uuid": "692b03d2-36a0-4597-b95d-3949417bb7aa@6c48a",
+    "f9941": {
+      "ver": "1.0.8",
+      "importer": "sprite-frame",
+      "uuid": "692b03d2-36a0-4597-b95d-3949417bb7aa@f9941",
       "imported": true,
       "files": [
         ".json"
@@ -25,16 +25,32 @@
         "mipfilter": "none",
         "premultiplyAlpha": false,
         "anisotropy": 1,
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": -1.5,
+        "offsetY": 0.5,
+        "trimX": 0,
+        "trimY": 1,
+        "width": 133,
+        "height": 71,
+        "rawWidth": 136,
+        "rawHeight": 74,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "692b03d2-36a0-4597-b95d-3949417bb7aa"
+        "imageUuidOrDatabaseUri": "692b03d2-36a0-4597-b95d-3949417bb7aa",
+        "atlasUuid": ""
       },
       "displayName": "setImg01",
-      "id": "6c48a",
-      "name": "texture"
+      "id": "f9941",
+      "name": "spriteFrame"
     }
   },
   "userData": {
-    "type": "texture",
-    "redirect": "692b03d2-36a0-4597-b95d-3949417bb7aa@6c48a"
+    "type": "sprite-frame",
+    "redirect": "692b03d2-36a0-4597-b95d-3949417bb7aa@f9941"
   }
 }

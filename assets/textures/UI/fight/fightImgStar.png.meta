@@ -8,10 +8,10 @@
     ".json"
   ],
   "subMetas": {
-    "6c48a": {
-      "ver": "1.0.19",
-      "importer": "texture",
-      "uuid": "c5189fe9-92d4-4b65-908b-881a57fa81da@6c48a",
+    "f9941": {
+      "ver": "1.0.8",
+      "importer": "sprite-frame",
+      "uuid": "c5189fe9-92d4-4b65-908b-881a57fa81da@f9941",
       "imported": true,
       "files": [
         ".json"
@@ -25,16 +25,32 @@
         "mipfilter": "none",
         "premultiplyAlpha": false,
         "anisotropy": 1,
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 0,
+        "trimY": 0,
+        "width": 349,
+        "height": 282,
+        "rawWidth": 349,
+        "rawHeight": 282,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "c5189fe9-92d4-4b65-908b-881a57fa81da"
+        "imageUuidOrDatabaseUri": "c5189fe9-92d4-4b65-908b-881a57fa81da",
+        "atlasUuid": ""
       },
       "displayName": "fightImgStar",
-      "id": "6c48a",
-      "name": "texture"
+      "id": "f9941",
+      "name": "spriteFrame"
     }
   },
   "userData": {
-    "type": "texture",
-    "redirect": "c5189fe9-92d4-4b65-908b-881a57fa81da@6c48a"
+    "type": "sprite-frame",
+    "redirect": "c5189fe9-92d4-4b65-908b-881a57fa81da@f9941"
   }
 }
