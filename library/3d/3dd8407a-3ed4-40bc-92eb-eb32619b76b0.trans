@@ -1,7 +1,0 @@
-{
-    "resolveMap": {
-        "./../data/PoolManager": "E:/company_project/demo-car/assets/script/data/PoolManager.ts",
-        "./../data/Constants": "E:/company_project/demo-car/assets/script/data/Constants.ts",
-        "./../data/CustomEventListener": "E:/company_project/demo-car/assets/script/data/CustomEventListener.ts"
-    }
-}

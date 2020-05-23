@@ -1,7 +1,0 @@
-{
-    "resolveMap": {
-        "./AudioManager": "E:/company_project/demo-car/assets/script/game/AudioManager.ts",
-        "./../data/Constants": "E:/company_project/demo-car/assets/script/data/Constants.ts",
-        "../data/CustomEventListener": "E:/company_project/demo-car/assets/script/data/CustomEventListener.ts"
-    }
-}
